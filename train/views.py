@@ -2,6 +2,10 @@ from django.shortcuts import render
 
 
 # Create your views here.
+def welcome(request):
+    return render(request, 'welcome.html')
+
+
 def home(request):
     return render(request, 'train/index.html')
 
@@ -32,3 +36,7 @@ def user_home(request):
 
 def user_info(request):
     return render(request, 'authenticated/user_info.html')
+
+
+def base(request):
+    return render(request, 'base.html')
