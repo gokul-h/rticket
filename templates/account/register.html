@@ -5,52 +5,84 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    <div class="container px-1 py-2">
+        <hr>
+        <h1>Sign Up for an Account !</h1>
+        <h4>Fill up below details</h4>
+        <hr>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">First Name</label>
+                            <input type="text" class="form-control" name="first_name"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Last Name</label>
+                            <input type="text" class="form-control" name="last_name"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Username</label>
+                            <input type="text" class="form-control" name="username"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">E Mail</label>
+                            <input type="email" class="form-control" name="email"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Password</label>
+                            <input type="password" class="form-control" name="password1"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Confirm password</label>
+                            <input type="password" class="form-control" name="password2"
+                                   placeholder="Type in here..">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+                <div class="col-md-3">
+                    {% for message in messages %}
+                        <input type="text" class="form-control btn btn-outline-danger" name="message"
+                               placeholder="*" value="{{ message }}" readonly>
+                    {% endfor %}
+                </div>
+            </div>
         </form>
     </div>
 {% endblock %}

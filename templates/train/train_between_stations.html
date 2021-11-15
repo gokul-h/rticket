@@ -1,9 +1,104 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Train Between Stations
+    Train Between Stations
+{% endblock %}
+
+{% block head %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
 {% endblock %}
 
 {% block content %}
-<h1>Train Between Stations</h1>
+    <div class="px-1 py-1">
+        <hr>
+        <h1>Search Train Between Stations</h1>
+        <hr>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-md-6 px-3">
+                    <div class="card border-primary">
+                        <div class="card-header">
+                            Select your Departure Location
+                        </div>
+                        <div class="card-body text-primary">
+                            <select class="js-example-basic-single container-fluid" name="departure">
+                                <option disabled="true" selected>--Select a Station--</option>
+                                {% for station in stations %}
+                                    <option value="{{ station.station }}">{{ station.station }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 px-3">
+                    <div class="card border-success">
+                        <div class="card-header">
+                            Select your Arrival Location
+                        </div>
+                        <div class="card-body text-success">
+                            <select class="js-example-basic-single container-fluid" name="arrival">
+                                <option disabled="True" selected>--Select a Station--</option>
+                                {% for station in stations %}
+                                    <option value="{{ station.station }}">{{ station.station }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row ">
+                <div class="col-6">
+                    <input type="submit" class="btn btn-success" value="Search">
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h3>Available Trains</h3>
+        <hr>
+
+        {% for train in trains %}
+            <div class="row">
+                <div class="col-md-12 py-2 px-2">
+                    <div class="card bg-light">
+                        <div class="card-header"><b>{{ train.name }}</b></div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Departure From : {{ train.source }}</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">Arrival at : {{ train.destination }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {% if user.is_authenticated %}
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <form method="POST" action="payment/">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="id" value="{{ train.id }}">
+                                            <input type="submit" class="btn btn-success" value="Book Now">
+                                        </form>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <script>
+            $(document).ready(function () {
+                $('.js-example-basic-single').select2();
+            });
+        </script>
+
 {% endblock %}

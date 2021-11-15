@@ -1,9 +1,37 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Train Info
+    Train Info
 {% endblock %}
 
 {% block content %}
-<h1>Train Info</h1>
+    <div class="container px-1 py-2">
+        <hr>
+        <h1>Train List</h1>
+        <hr>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">SL no.</th>
+                    <th scope="col">Train Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Source</th>
+                    <th scope="col">Destination</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for train in trains %}
+                    <tr>
+                        <td>{{ train.id }}</td>
+                        <th scope="row">{{ train.number }}</th>
+                        <td>{{ train.name }}</td>
+                        <td>{{ train.source }}</td>
+                        <td>{{ train.destination }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
 {% endblock %}

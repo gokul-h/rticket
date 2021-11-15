@@ -21,5 +21,5 @@ urlpatterns = [
     path('account/', include('account.urls')),
     path('order/', include('order.urls')),
     path('payment/', include('payment.urls')),
-    path('admin/', admin.site.urls),
+    path('r-ticket-admin-login/', admin.site.urls),
 ]

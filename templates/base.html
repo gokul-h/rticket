@@ -7,8 +7,6 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>{% block title %} {% endblock %}</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
-
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'dist/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -38,18 +36,26 @@
 <body>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 text-center" href="#">R TICKET</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 text-center" href="{% url 'home' %}">R Ticket</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-    <div class="navbar-nav">
-        <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="account/login">Sign in</a>
+    {% if user.is_authenticated %}
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="{% url 'logout' %}">Logout</a>
+            </div>
         </div>
-    </div>
+    {% else %}
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="{% url 'login' %}">Sign in</a>
+            </div>
+        </div>
+    {% endif %}
 </header>
 
 <div class="container-fluid">
@@ -58,60 +64,67 @@
             <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home">
+                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">
                             <span data-feather="home"></span>
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="train_between_stations">
+                        <a class="nav-link" href="{% url 'train_between_stations' %}">
                             <span data-feather="file"></span>
                             Book a Train
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="train_info">
+                        <a class="nav-link" href="{% url 'train_info' %}">
                             <span data-feather="shopping-cart"></span>
-                            Train Info
+                            Train List
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about">
+                        <a class="nav-link" href="{% url 'search' %}">
+                            <span data-feather="shopping-cart"></span>
+                            Search for Train
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">
                             <span data-feather="users"></span>
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="account/register">
+                        <a class="nav-link" href="{% url 'register' %}">
                             <span data-feather="bar-chart-2"></span>
                             Register
                         </a>
                     </li>
                 </ul>
-
+                {% if user.is_authenticated %}
                 <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                     <span>User Services</span>
                 </h6>
                 <ul class="nav flex-column mb-2">
                     <li class="nav-item">
-                        <a class="nav-link" href="user_home">
+                        <a class="nav-link" href="{% url 'user_home' %}">
                             <span data-feather="file-text"></span>
                             Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="user_info">
+                        <a class="nav-link" href="{% url 'user_info' %}">
                             <span data-feather="file-text"></span>
                             Personal Info
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="order/history">
+                        <a class="nav-link" href="{% url 'order_history' %}">
                             <span data-feather="file-text"></span>
                             Orders
                         </a>
                     </li>
                 </ul>
+                {% endif %}
             </div>
         </nav>
 
