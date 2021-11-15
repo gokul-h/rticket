@@ -82,7 +82,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <form method="POST" action="payment/">
+                                        <form method="POST" action="order/">
                                             {% csrf_token %}
                                             <input type="hidden" name="id" value="{{ train.id }}">
                                             <input type="submit" class="btn btn-success" value="Book Now">

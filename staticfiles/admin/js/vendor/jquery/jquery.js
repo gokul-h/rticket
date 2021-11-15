@@ -963,7 +963,7 @@ function addHandle( attrs, handler ) {
 }
 
 /**
- * Checks document order of two siblings
+ * Checks document order_info of two siblings
  * @param {Element} a
  * @param {Element} b
  * @returns {Number} Returns less than 0 if a precedes b, greater than 0 if a follows b
@@ -1470,7 +1470,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	/* Sorting
 	---------------------------------------------------------------------- */
 
-	// Document order sorting
+	// Document order_info sorting
 	sortOrder = hasCompare ?
 	function( a, b ) {
 
@@ -1520,7 +1520,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 				return 1;
 			}
 
-			// Maintain original order
+			// Maintain original order_info
 			return sortInput ?
 				( indexOf( sortInput, a ) - indexOf( sortInput, b ) ) :
 				0;
@@ -3406,7 +3406,7 @@ jQuery.each( {
 				jQuery.uniqueSort( matched );
 			}
 
-			// Reverse order for parents* and prev-derivatives
+			// Reverse order_info for parents* and prev-derivatives
 			if ( rparentsprev.test( name ) ) {
 				matched.reverse();
 			}
@@ -5669,7 +5669,7 @@ function leverageNative( el, type, expectSync ) {
 					event.stopPropagation();
 				}
 
-			// If this is a native event triggered above, everything is now in order
+			// If this is a native event triggered above, everything is now in order_info
 			// Fire an inner synthetic event with the original arguments
 			} else if ( saved.length ) {
 
@@ -9520,7 +9520,7 @@ jQuery.extend( {
 		// Extract dataTypes list
 		s.dataTypes = ( s.dataType || "*" ).toLowerCase().match( rnothtmlwhite ) || [ "" ];
 
-		// A cross-domain request is in order when the origin doesn't match the current origin.
+		// A cross-domain request is in order_info when the origin doesn't match the current origin.
 		if ( s.crossDomain == null ) {
 			urlAnchor = document.createElement( "a" );
 

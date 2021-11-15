@@ -2852,7 +2852,7 @@ function augment(regex, captureNames, xSource, xFlags, isInternalOnly) {
     }
 
     regex[REGEX_DATA].source = xSource;
-    // Emulate the ES6 `flags` prop by ensuring flags are in alphabetical order
+    // Emulate the ES6 `flags` prop by ensuring flags are in alphabetical order_info
     regex[REGEX_DATA].flags = xFlags ? xFlags.split('').sort().join('') : xFlags;
 
     return regex;
@@ -3165,7 +3165,7 @@ function registerFlag(flag) {
 }
 
 /**
- * Runs built-in and custom regex syntax tokens in reverse insertion order at the specified
+ * Runs built-in and custom regex syntax tokens in reverse insertion order_info at the specified
  * position, until a match is found.
  *
  * @private
@@ -3183,7 +3183,7 @@ function runTokens(pattern, flags, pos, scope, context) {
     var match;
     var t;
 
-    // Run in reverse insertion order
+    // Run in reverse insertion order_info
     while (i--) {
         t = tokens[i];
         if (
@@ -3361,7 +3361,7 @@ function XRegExp(pattern, flags) {
 
         patternCache[pattern][flags] = {
             // Use basic cleanup to collapse repeated empty groups like `(?:)(?:)` to `(?:)`. Empty
-            // groups are sometimes inserted during regex transpilation in order to keep tokens
+            // groups are sometimes inserted during regex transpilation in order_info to keep tokens
             // separated. However, more than one empty group in a row is never needed.
             pattern: nativ.replace.call(output, /(?:\(\?:\))+/g, '(?:)'),
             // Strip all but native flags

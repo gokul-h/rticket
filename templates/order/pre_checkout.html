@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Checkout
+{% endblock %}
+
+
+{% block content %}
+    <div class="px-1 py-1">
+        <hr>
+        <h1>Confirm Your Order</h1>
+        <hr>
+        <div class="row">
+            {% for train in trains %}
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Travel Details</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5>Confirm your travel details</h5>
+                            <hr>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <label for="number" class="input-group-text">Train number : </label>
+                                    <input id="number" class="form-control" type="text" value="{{ train.number }}"
+                                           readonly>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <label for="name" class="input-group-text">Train Name : </label>
+                                    <input id="name" class="form-control" type="text" value="{{ train.name }}" readonly>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <label for="source" class="input-group-text">Source : </label>
+                                    <input id="source" class="form-control" type="text" value="{{ train.source }}"
+                                           readonly>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <label for="destination" class="input-group-text">Destination : </label>
+                                    <input id="destination" class="form-control" type="text"
+                                           value="{{ train.destination }}" readonly>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Seating Options</h4>
+                    </div>
+                    <div class="card-body">
+                        <select class="js-example-basic-single container-fluid" onload="fare_calculator()" onclick="fare_calculator()"
+                                name="seating" id="seating">
+                            <option value="1940" selected>First AC (1A)</option>
+                            <option value="1930">Executive Class (EC)</option>
+                            <option value="1150">Second AC (2A)</option>
+                            <option value="950">First Class (FC)</option>
+                            <option value="815">Third AC (3A)</option>
+                            <option value="665">Chair Car (CC)</option>
+                            <option value="315">Sleeper (SL)</option>
+                            <option value="180">Second Seating (2S)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Payment Details</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5>Summary</h5>
+                        <hr>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <label for="base_val" class="input-group-text">Base Price : </label>
+                                <input id="base_val" class="form-control" type="text" value="" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <label for="charges" class="input-group-text">Charges : </label>
+                                <input id="charges" class="form-control" type="text" value="" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <label for="gst" class="input-group-text">GST(5%) : </label>
+                                <input id="gst" class="form-control" type="text" value="" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <label for="total" class="input-group-text">Total Fare : </label>
+                                <input id="total" class="form-control" type="text" value=""
+                                       readonly><span id="total"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <form method="POST" action="{% url 'checkout' %}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="id" value="{{ train.id }}">
+                                    <input type="submit" class="btn btn-success" value="Confirm and proceed to payment">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <script>
+        function fare_calculator() {
+            let base = Number(document.getElementById('seating').value);
+            let charge = 50;
+            let gst = (base + charge) * 0.05;
+            let fare = base + gst;
+            document.getElementById("base_val").value = "₹ " + String(base);
+            document.getElementById('charges').value = "₹ " + String(charge);
+            document.getElementById('gst').value = "₹ " + String(gst);
+            document.getElementById('total').value = "₹ " + String(fare);
+        }
+    </script>
+
+{% endblock %}
