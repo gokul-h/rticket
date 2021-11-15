@@ -2,26 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb52e15-dd0c-40a0-a781-3b6bf2d6e7d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/order/pre_checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/razorpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment/migrations/0007_pay_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/train/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/migrations/0003_blog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/payment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rticket/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rticket/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rticket/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rticket/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/order/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order/payment_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/payment_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order/pre_checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/pre_checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/train/train_between_stations.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/train/train_between_stations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,9 @@
       <workItem from="1636794471456" duration="14806000" />
       <workItem from="1636882560758" duration="25736000" />
       <workItem from="1636941978197" duration="14041000" />
-      <workItem from="1636964823774" duration="17522000" />
+      <workItem from="1636964823774" duration="17566000" />
+      <workItem from="1636988062627" duration="2292000" />
+      <workItem from="1636997403011" duration="4589000" />
     </task>
     <servers />
   </component>
@@ -128,6 +130,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

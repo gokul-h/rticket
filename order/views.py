@@ -6,6 +6,7 @@ from .models import order_info
 from django.urls import reverse
 import uuid
 
+
 # Create your views here.
 @login_required(login_url='login')
 def pre_checkout(request):
@@ -27,12 +28,13 @@ def checkout_process(request):
         train_number = request.POST['train_number']
         departure = request.POST['departure']
         arrival = request.POST['arrival']
-        amount = request.POST['amount']
+        amount = int(float(request.POST['total']))
 
         order = order_info(order_id=order_id, username=username, train_number=train_number, departure=departure,
                            arrival=arrival, amount=amount)
         order.save()
-        return redirect(reverse('checkout'), order_id=order_id)
+        print(order)
+        return redirect(reverse('checkout'))
 
 
 @login_required(login_url='login')

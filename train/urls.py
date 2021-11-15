@@ -12,4 +12,5 @@ urlpatterns = [
     path('train_info', views.train_info, name="train_info"),
     path('user_home', views.user_home, name="user_home"),
     path('user_info', views.user_info, name="user_info"),
+    path('blog', views.blog, name="blog"),
 ]

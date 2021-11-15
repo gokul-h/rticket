@@ -1,10 +1,18 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
     Payment Success
 {% endblock %}
 
+{% block head %}
+    <meta http-equiv="refresh" content="3; url = {% url 'order_history' %}"/>
+{% endblock %}
+
 {% block content %}
-    <h1>Payment Success</h1>
-    <h1>You must be authenticated to view this page</h1>
+    <div class="text-center mt-5 pt-5">
+        <img src="{% static 'img/success.png' %}" class="img-fluid" style="height:200px" alt="Success Icon">
+        <h2>Your Payment has been Received</h2>
+        <h3>Order Confirmed!</h3>
+        <h4>Redirecting you to your orders...</h4>
+    </div>
 {% endblock %}

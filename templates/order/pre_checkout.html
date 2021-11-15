@@ -101,15 +101,19 @@
                         <div class="form-group">
                             <div class="input-group mb-3">
                                 <label for="total" class="input-group-text">Total Fare : </label>
-                                <input id="total" class="form-control" type="text" value=""
-                                       readonly><span id="total"></span>
+                                <input id="total" class="form-control" type="text" value="" readonly>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <form method="POST" action="{% url 'checkout' %}">
+                                <form method="POST" action="{% url 'checkout_process' %}">
                                     {% csrf_token %}
-                                    <input type="hidden" name="id" value="{{ train.id }}">
+                                    {% for train in trains %}
+                                    <input type="hidden" name="train_number" value="{{ train.number }}">
+                                    <input type="hidden" name="departure" value="{{ train.source }}">
+                                    <input type="hidden" name="arrival" value="{{ train.destination }}">
+                                    {% endfor %}
+                                    <input id="pass_total" class="form-control" type="hidden" name="total" value="" readonly>
                                     <input type="submit" class="btn btn-success" value="Confirm and proceed to payment">
                                 </form>
                             </div>
@@ -124,13 +128,14 @@
     <script>
         function fare_calculator() {
             let base = Number(document.getElementById('seating').value);
-            let charge = 50;
+            let charge = Number(50);
             let gst = (base + charge) * 0.05;
-            let fare = base + gst;
+            let fare = base + gst + charge;
             document.getElementById("base_val").value = "₹ " + String(base);
             document.getElementById('charges').value = "₹ " + String(charge);
             document.getElementById('gst').value = "₹ " + String(gst);
-            document.getElementById('total').value = "₹ " + String(fare);
+            document.getElementById('total').value =  "₹ " + String(fare);
+            document.getElementById('pass_total').value = String(fare);
         }
     </script>
 

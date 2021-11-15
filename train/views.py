@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import stations, train
 from django.contrib.auth.decorators import login_required
-
+from django.urls import reverse
 
 # Create your views here.
 def welcome(request):
@@ -68,3 +68,7 @@ def user_info(request):
 
 def base(request):
     return render(request, 'base.html')
+
+
+def blog(request):
+    return render(request, 'train/blog.html')

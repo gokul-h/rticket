@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
-    About Us
+    Payment
 {% endblock %}
 
 {% block content %}
@@ -9,7 +9,35 @@
         <hr>
         <h1>Payment</h1>
         <hr>
-    <h3>Once Razorpay payment gateway pops up please dont hit back or Refresh</h3>
-
+        <h3>Once the payment gateway pops up please dont hit back or Refresh</h3>
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/razorpay.png' %}" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">₹{{ amount }}</h5>
+                <p class="card-text">Click below button to proceed with payment</p>
+                {% if order_id %}
+                    <div class="text-center mx-auto">
+                        <form action="{% url 'success' %}" method="POST">
+                            <script
+                                    src="https://checkout.razorpay.com/v1/checkout.js"
+                                    data-key="rzp_test_RyKhoqZabASgLH"
+                                    data-amount="{{ payment.amount }}"
+                                    data-currency="INR"
+                                    data-order_id="{{ payment.id }}"
+                                    data-buttontext="Pay with Razorpay"
+                                    data-name="R Ticket"
+                                    data-description="24x7 Train Booking"
+                                    data-image="{% static 'imag/logo.jpg' %}"
+                                    data-prefill.name="{{ username }}"
+                                    data-prefill.email="{{ usermail }}"
+                                    data-prefill.contact="9999999999"
+                                    data-theme.color="#F37254"
+                            ></script>
+                            <input type="hidden" custom="Hidden Element" name="hidden">
+                        </form>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
     </div>
 {% endblock %}
