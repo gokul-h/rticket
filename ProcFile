@@ -1,0 +1,1 @@
+web: gunicorn rticket.wsgi --log-file -
