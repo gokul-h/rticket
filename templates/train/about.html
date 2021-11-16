@@ -1,42 +1,175 @@
 {% extends 'base.html' %}
 
 {% block title %}
-About Us
+    About US
 {% endblock %}
 
 {% block content %}
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+        </symbol>
+        <symbol id="calendar3" viewBox="0 0 16 16">
+            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+            <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+        </symbol>
+        <symbol id="cpu-fill" viewBox="0 0 16 16">
+            <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+            <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+        </symbol>
+        <symbol id="toggles2" viewBox="0 0 16 16">
+            <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z"/>
+            <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z"/>
+            <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+        </symbol>
+        <symbol id="tools" viewBox="0 0 16 16">
+            <path d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
+        </symbol>
+    </svg>
     <div class="container px-1 py-2">
-    <hr>
-<h1>About Us</h1>
-     <hr>
-    <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
+        <br>
+        <div class="container text-center">
+            <h1>About US</h1>
+            <hr>
+            <h6>A Railway Reservation and Management System</h6>
+            <h6>version
+                <mark>v1.0</mark>
+            </h6>
+        </div>
+        <br>
+        <div>
+            <div class="card container px-1 py-1" id="icon-grid">
+                <div class="card-header text-center"><h2>Features</h2></div>
+                <div class="card-body">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1">
+                        <div class="col d-flex align-items-start">
+                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                                <use xlink:href="#cpu-fill"/>
+                            </svg>
+                            <div>
+                                <h4 class="fw-bold mb-0">Train Info</h4>
+                                <p>View complete info about a particular train</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                                <use xlink:href="#toggles2"/>
+                            </svg>
+                            <div>
+                                <h4 class="fw-bold mb-0">Trains Between Stations</h4>
+                                <p>Display trains available between two stations</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                                <use xlink:href="#calendar3"/>
+                            </svg>
+                            <div>
+                                <h4 class="fw-bold mb-0">Book a train</h4>
+                                <p>Book a train of your choice with our easy search.</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                                <use xlink:href="#tools"/>
+                            </svg>
+                            <div>
+                                <h4 class="fw-bold mb-0">View orders</h4>
+                                <p>View order details payment status.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="mb-5">
-      <a href="../examples/" class="btn btn-primary btn-lg px-4">Download examples</a>
+        <br><br>
+        <div class="row conatiner text-center">
+            <h2>Technologies Used</h2>
+        </div>
+        <hr>
+        <div class="row container text-center">
+            <nav>
+                <div class="nav nav-tabs mb-3 justify-content-center" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
+                            type="button" role="tab" aria-controls="frontend" aria-selected="true">Frontend
+                    </button>
+                    <button class="nav-link" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
+                            type="button" role="tab" aria-controls="backend" aria-selected="false">Backend
+                    </button>
+                    <button class="nav-link" id="other-tab" data-bs-toggle="tab" data-bs-target="#other"
+                            type="button" role="tab" aria-controls="other" aria-selected="false">Other
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+                    <a href="http://www.w3.org/html/logo/">
+                        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia-semantics.png"
+                             width="229" height="64"
+                             alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics"
+                             title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, Multimedia, and Semantics">
+                    </a>
+                    <a href="https://getbootstrap.com/"><img
+                            src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo-black.svg" height="50px"
+                            width="auto"></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img
+                            src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+                            height="50px" width="auto"></a>
+                    <a href="https://contribute.jquery.org/"><img
+                            src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg" height="50px"
+                            width="auto"></a>
+                </div>
+                <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="backend-tab">
+                    <a href="http://www.djangoproject.com/"><img
+                            src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0"
+                            alt="Powered by Django." title="Powered by Django."/></a>
+                    <a href="https://www.python.org/psf-landing/"><img
+                            src="https://www.python.org/static/community_logos/python-powered-w-200x80.png"
+                            height="50px"
+                            width="auto"></a>
+                    <a href="https://www.postgresql.org/"><img
+                            src="https://wiki.postgresql.org/images/thumb/a/a4/PostgreSQL_logo.3colors.svg/116px-PostgreSQL_logo.3colors.svg.png"
+                            height="50px"
+                            width="auto"></a>
+                </div>
+                <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                    <a href="https://devcenter.heroku.com/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg" height="50px"
+                            width="auto"></a>
+                    <a href="https://razorpay.com/" target="_blank"> <img referrerpolicy="origin"
+                                                                          src="https://badges.razorpay.com/badge-dark.png "
+                                                                          style="height: 45px; width: 113px;"
+                                                                          alt="Razorpay | Payment Gateway | Neobank"></a>
+                    <a href="https://feathericons.com/"><img
+                            src="https://avatars.githubusercontent.com/u/29268069?s=200&v=4" height="50px"
+                            width="auto"></a>
+                    <a href="https://select2.org/"><img
+                            src="https://forums.select2.org/uploads/default/original/1X/6fde2e51ab13b781e96cd6860dd222d7adb1ebea.png"
+                            height="50px"
+                            width="auto"></a>
+                    <a href="https://www.jetbrains.com/"><img
+                            src="https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm.svg?_ga=2.28503292.1527455482.1637051880-762384860.1636697492&_gl=1*1eiq92w*_ga*NzYyMzg0ODYwLjE2MzY2OTc0OTI.*_ga_V0XZL7QHEB*MTYzNzA1MTg3OS4yLjEuMTYzNzA1MTk1My4w"
+                            height="50px"
+                            width="auto"></a>
+                    <a href="https://github.com/"><img
+                            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+                            height="50px"
+                            width="auto"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+        <div class="col-md-12 text-center">
+            <h2>Source Code</h2>
+            <p>You can download and view the source code on github</p>
+            <a href="https://github.com/gokul-h/rticket">https://github.com/gokul-h/rticket</a>
+        </div>
+        <br><br>
+
     </div>
-
-    <hr class="col-3 col-md-2 mb-5">
-
-    <div class="row g-5">
-      <div class="col-md-6">
-        <h2>Starter projects</h2>
-        <p>Ready to beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository.</p>
-        <ul class="icon-list">
-          <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">Bootstrap npm starter</a></li>
-          <li class="text-muted">Bootstrap Parcel starter (coming soon!)</li>
-        </ul>
-      </div>
-
-      <div class="col-md-6">
-        <h2>Guides</h2>
-        <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-        <ul class="icon-list">
-          <li><a href="../getting-started/introduction/">Bootstrap quick start guide</a></li>
-          <li><a href="../getting-started/webpack/">Bootstrap Webpack guide</a></li>
-          <li><a href="../getting-started/parcel/">Bootstrap Parcel guide</a></li>
-          <li><a href="../getting-started/contribute/">Contributing to Bootstrap</a></li>
-        </ul>
-      </div>
-    </div>
-     </div>
 {% endblock %}

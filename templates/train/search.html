@@ -25,10 +25,12 @@
                         </div>
                         <div class="card-body text-primary">
                             <select class="js-example-basic-single container-fluid" name="train_number">
-                                <option  value ="0" selected>--Select a Train Number--</option>
+                                <option value="0" selected>--Select a Train Number--</option>
+
                                 {% for train in trains %}
                                     <option value="{{ train.id }}">{{ train.number }}</option>
                                 {% endfor %}
+
                             </select>
                         </div>
                     </div>
@@ -40,10 +42,12 @@
                         </div>
                         <div class="card-body text-success">
                             <select class="js-example-basic-single container-fluid" name="train_name">
-                                <option  value ="0" selected>--Select a Train Name--</option>
+                                <option value="0" selected>--Select a Train Name--</option>
+
                                 {% for train in trains %}
                                     <option value="{{ train.id }}">{{ train.name }}</option>
                                 {% endfor %}
+
                             </select>
                         </div>
                     </div>
@@ -56,6 +60,7 @@
                 </div>
             </div>
         </form>
+
         <hr>
         <h3>Train Details</h3>
         <hr>
@@ -78,14 +83,30 @@
                                     </ul>
                                 </div>
                             </div>
+
+                            {% if user.is_authenticated %}
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <form method="POST" action="{% url 'pre_checkout' %}">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="id" value="{{ train.id }}">
+                                            <input type="submit" class="btn btn-success" value="Book Now">
+                                        </form>
+                                    </div>
+                                </div>
+                            {% endif %}
+
                         </div>
                     </div>
                 </div>
             </div>
         {% endfor %}
+
         <script>
             $(document).ready(function () {
                 $('.js-example-basic-single').select2();
             });
         </script>
+    </div>
 {% endblock %}

@@ -5,6 +5,71 @@
 {% endblock %}
 
 {% block content %}
-    <h1>User Info</h1>
-    <h1>You must be authenticated to view this page</h1>
+    <div class="container px-1 py-2">
+        <hr>
+        <h1>Personal Info</h1>
+        <hr>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">First Name</label>
+                            <input type="text" class="form-control" name="first_name"
+                                   value="{{ user.first_name }}" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Last Name</label>
+                            <input type="text" class="form-control" name="last_name"
+                                   value="{{ user.last_name }}" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Username</label>
+                            <input type="text" class="form-control" name="username"
+                                   value="{{ user.username }}" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">E Mail</label>
+                            <input type="email" class="form-control" name="email"
+                                   value="{{ user.email }}" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Date Joined</label>
+                            <input type="text" class="form-control" name="password1"
+                                   value="{{ user.date_joined }}" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Last Login</label>
+                            <input type="text" class="form-control" name="password2"
+                                   value="{{ user.last_login }}" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 {% endblock %}

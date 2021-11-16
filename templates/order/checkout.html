@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block title %}
     Payment
 {% endblock %}
@@ -27,7 +28,7 @@
                                     data-buttontext="Pay with Razorpay"
                                     data-name="R Ticket"
                                     data-description="24x7 Train Booking"
-                                    data-image="{% static 'imag/logo.jpg' %}"
+                                    data-image="{% static 'img/logo.jpg' %}"
                                     data-prefill.name="{{ username }}"
                                     data-prefill.email="{{ usermail }}"
                                     data-prefill.contact="9999999999"

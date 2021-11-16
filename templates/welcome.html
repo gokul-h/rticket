@@ -4,13 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container"
      style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url({% static 'img/indianrailways.jpg' %});">
     <div class="navbar">
-        <img src="{% static 'img/icon.jpg' %}" class="logo" alt="logo">
+        <img src="{% static 'img/icon.png' %}" class="logo" alt="logo">
         <nav>
             <ul>
                 <li><a href="{% url 'home' %}">HOME</a></li>
@@ -19,28 +20,28 @@
     </div>
     <div class="row">
         <div class="col">
-            <h1>Welcome to R Ticket </h1>
+            <h1>Welcome to<br>R Ticket</h1>
             <p>A Railway Reservation and Management System</p>
             <a href="{% url 'home' %}">
-            <button type="button" >Proceed to Website</button>
-                </a>
+                <button type="button">Proceed to Website</button>
+            </a>
         </div>
         <div class="col">
             <div class="card card1" style="background-image: url({% static 'img/one.jpg' %})">
-                <h5>History</h5>
-                <p>Know the History about your live station</p>
+                <h5 style=" color:black;background-color:white">Search</h5>
+                <p style=" color:black;background-color:white">Search Train Between Stations</p>
             </div>
-            <div class="card card2" style="background-image: url({% static 'img/chai1.jpg' %})">
-                <h5>Exquisite</h5>
-                <p>Know about the famous spots in your live station</p>
+            <div class="card card2" style="background-image: url({% static 'img/two.jpg' %})">
+                <h5 style=" color:black;background-color:white">Search</h5>
+                <p style=" color:black;background-color:white">Search Train by Number or Name</p>
             </div>
             <div class="card card3" style="background-image: url({% static 'img/three.jpg' %})">
-                <h5>Savouries</h5>
-                <p>What is the most recommended food of your current station ?</p>
+                <h5 style=" color:black;background-color:white">Train List</h5>
+                <p style=" color:black;background-color:white">View Complete list of trains</p>
             </div>
             <div class="card card4" style="background-image: url({% static 'img/four.jpg' %})">
-                <h5>Versatile</h5>
-                <p>Every station has a story.Explore more</p>
+                <h5 style=" color:black;background-color:white">Sign in</h5>
+                <p style=" color:black;background-color:white">Books trains and do much more</p>
             </div>
         </div>
     </div>

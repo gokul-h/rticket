@@ -5,6 +5,138 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Order History</h1>
-    <h1>You must be authenticated to view this page</h1>
+    <div class="container px-1 py-2">
+        <hr>
+        <h1>Order History</h1>
+        <hr>
+
+        {% for torder in torders %}
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                            {{ torder.departure }} to {{ torder.arrival }}
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                         aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <label for="train_number" class="input-group-text">Train number : </label>
+                                            <input id="train_number" class="form-control" type="text"
+                                                   value="{{ torder.train_number }}" readonly>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <label for="train_name" class="input-group-text">Train Name : </label>
+                                            {% for train in trains %}
+                                                {% if train.number == torder.train_number %}
+                                                    <input id="train_name" class="form-control" type="text"
+                                                           value="{{ train.name }}" readonly>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <label for="amount" class="input-group-text">Total Fare : </label>
+                                            <input id="amount" class="form-control" type="text"
+                                                   value="₹{{ torder.amount }}" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <label for="departure" class="input-group-text">Departure : </label>
+                                            <input id="departure" class="form-control" type="text"
+                                                   value="{{ torder.departure }}" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <label for="arrival" class="input-group-text">Arrival : </label>
+                                            <input id="arrival" class="form-control" type="text"
+                                                   value="{{ torder.arrival }}" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <label for="order_id" class="input-group-text">Order ID : </label>
+                                                <input id="order_id" class="form-control" type="text"
+                                                       value="{{ torder.order_id }}" readonly>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <label for="time" class="input-group-text">Booked at : </label>
+                                                <input id="time" class="form-control" type="text"
+                                                       value="{{ torder.time }}"
+                                                       readonly>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        {% endfor %}
+
+        <hr>
+        <h1>Payment History</h1>
+        <hr>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">SL no</th>
+                <th scope="col">Order ID</th>
+                <th scope="col">Payment ID</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {% for torder in torders %}
+                {% for porder in porders %}
+                    {% if porder.order_id == torder.order_id %}
+                        <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td>{{ porder.order_id }}</td>
+                        <td>{{ porder.payment_id }}</td>
+                        {% if porder.status == True %}
+                            <td><span class="badge bg-success">Success</span></td>
+                        {% else %}
+                            <td><span class="badge bg-danger">Failed</span></td>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
 {% endblock %}

@@ -77,10 +77,12 @@
                     <button type="submit" class="btn btn-primary">Register</button>
                 </div>
                 <div class="col-md-3">
+
                     {% for message in messages %}
                         <input type="text" class="form-control btn btn-outline-danger" name="message"
                                placeholder="*" value="{{ message }}" readonly>
                     {% endfor %}
+
                 </div>
             </div>
         </form>

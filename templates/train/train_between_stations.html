@@ -56,6 +56,7 @@
                 </div>
             </div>
         </form>
+
         <hr>
         <h3>Available Trains</h3>
         <hr>
@@ -64,7 +65,7 @@
             <div class="row">
                 <div class="col-md-12 py-2 px-2">
                     <div class="card bg-light">
-                        <div class="card-header"><b>{{ train.name }}</b></div>
+                        <div class="card-header"><b>{{ train.name }} - {{ train.number }}</b></div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -100,5 +101,5 @@
                 $('.js-example-basic-single').select2();
             });
         </script>
-
+    </div>
 {% endblock %}

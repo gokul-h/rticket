@@ -9,31 +9,35 @@
     <div class="container px-5 py-2">
         <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Sign in to your Personalised TRAIN of Features :)</h1>
+                <h1 class="display-4 fw-bold lh-1 mb-3">Sign in to your Personalised <b>TRAIN</b> of Features :)</h1>
                 <p class="col-lg-10 fs-4">With R Ticket you can book trains from anywhere in the world without any
                     hustle.</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
                 <form class="p-4 p-md-5 border rounded-3 bg-light text-center" method="POST">
-                {% csrf_token %}
+                    {% csrf_token %}
                     <div class="form-floating mb-3 ">
                         <img src="{% static 'img/logo.jpg' %}" class="rounded" alt="Logo" height="200px" width="auto">
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" name="username" placeholder="Username">
+                        <input type="text" class="form-control" id="floatingInput" name="username"
+                               placeholder="Username">
                         <label for="floatingInput">Username</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password">
+                        <input type="password" class="form-control" id="floatingPassword" name="password"
+                               placeholder="Password">
                         <label for="floatingPassword">Password</label>
                     </div>
                     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-                <br><br>
+                    <br><br>
                     <div class="form-group">
+
                         {% for message in messages %}
                             <input type="text" class="form-control btn btn-outline-danger" name="message"
                                    placeholder="*" value="{{ message }}" readonly>
                         {% endfor %}
+
                     </div>
                 </form>
             </div>

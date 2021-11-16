@@ -8,8 +8,7 @@ from .models import pay_order
 
 @login_required(login_url='login')
 def checkout(request):
-    oid = '2C42812474'
-    print(oid)
+    oid = request.session['order_id']
     order = order_info.objects.get(order_id=oid)
     # For payment
     client = razorpay.Client(auth=("rzp_test_RyKhoqZabASgLH", "T0aRdoXZfH549caMmbbqWDj5"))
@@ -23,6 +22,7 @@ def checkout(request):
     payment = client.order.create(data=DATA)
     payment_order = pay_order(order_id=oid, payment_id=payment['id'])
     payment_order.save()
+    del request.session['order_id']
     return render(request, 'order/checkout.html',
                   {'order_id': oid, 'payment': payment, 'amount': order.amount, 'usermail': usermail,
                    'username': username})

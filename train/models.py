@@ -13,6 +13,3 @@ class stations(models.Model):
     station = models.CharField(max_length=20)
 
 
-class blog(models.Model):
-    title = models.CharField(max_length=50)
-    content = models.CharField(max_length=1000)
