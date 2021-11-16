@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
 urlpatterns = [
     path('', include('train.urls')),
     path('account/', include('account.urls')),
@@ -23,3 +22,4 @@ urlpatterns = [
     path('payment/', include('payment.urls')),
     path('r-ticket-admin-login/', admin.site.urls),
 ]
+
