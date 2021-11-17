@@ -1,0 +1,1253 @@
+id,number,name,source,destination
+1,103,Mandovi Express,Mumbai Cst,Madgaon
+2,104,Mandovi Express,Madgaon,Mumbai Cst
+3,1048,Ubl Vsg Link Exp,Hubli Jn,Vasco Da Gama
+4,1066,Dbg Ltt Express,Darbhanga Jn,Lokmanyatilak T
+5,111,Konkan Kanya Exp,Mumbai Cst,Madgaon
+6,112,Konkan Kanya Exp,Madgaon,Mumbai Cst
+7,201,Ypr Guwahati Exp,Yesvantpur Jn,Guwahati
+8,2779,Vsg Ubl Link Exp,Vasco Da Gama,Hubli Jn
+9,3154,Gour Exp,Balurghat,Sealdah
+10,340,Link Secbad Exp,Manuguru,Secunderabad Jn
+11,4017,Sadbhavna Exp,Muzaffarpur Jn,Delhi
+12,4523,Mfp Umb Exp,Muzaffarpur Jn,Ambala Cant Jn
+13,4649,Saryuyamuna Exp,Darbhanga Jn,Amritsar Jn
+14,4673,Shaheed Express,Darbhanga Jn,Amritsar Jn
+15,5001,Mfp Ddn Exp,Muzaffarpur Jn,Dehradun
+16,5097,Amarnath Exp,Barauni Jn,Jammu Tawi
+17,5228,Mfp Ypr Exp,Muzaffarpur Jn,Yesvantpur Jn
+18,611,Nagercoil Exp,Chennai Egmore,Nagarcoil Jn
+19,612,Chennai Exp,Nagarcoil Jn,Chennai Egmore
+20,6317,Mdu Jammu Exp,Madurai Jn,Jammu Tawi
+21,641,Bangalore Exp,Eranakulam Jn,Bangalore Cy Jn
+22,642,Ernakulam Exp,Bangalore Cy Jn,Eranakulam Jn
+23,6687,Mdu Jammu Exp,Madurai Jn,Jammu Tawi
+24,674,Jodhpur Express,Yesvantpur Jn,Jodhpur Jn
+25,683,Bangalore Exp,Chennai Central,Bangalore Cy Jn
+26,684,Chennai Exp,Bangalore Cy Jn,Chennai Central
+27,7058,Devagiri Exp,Secunderabad Jn,Mumbai Cst
+28,9040,Avadh Express,Muzaffarpur Jn,Bandra Terminus
+29,1005,Latur Express,Mumbai Cst,Latur
+30,1006,Latur Express,Latur,Mumbai Cst
+31,1007,Deccan Express,Mumbai Cst,Pune Jn
+32,1008,Deccan Express,Pune Jn,Mumbai Cst
+33,1009,Sinhagad Exp,Mumbai Cst,Pune Jn
+34,1010,Sinhagad Exp,Pune Jn,Mumbai Cst
+35,1011,Mahalaxmi Exp,Mumbai Cst,C Shahumharaj T
+36,1012,Mahalaxmi Exp,C Shahumharaj T,Mumbai Cst
+37,1013,Coimbatore Exp,Lokmanyatilak T,Coimbatore Jn
+38,1014,Lokmanya Tt Exp,Coimbatore Jn,Lokmanyatilak T
+39,1015,Kushinagar Exp,Lokmanyatilak T,Gorakhpur Jn
+40,1016,Kushinagar Exp,Gorakhpur Jn,Lokmanyatilak T
+41,1017,Chalukya Express,Dadar,Yesvantpur Jn
+42,1018,Chalukya Exp,Yesvantpur Jn,Dadar
+43,1019,Konark Express,Mumbai Cst,Bhubaneswar
+44,1020,Konark Express,Bhubaneswar,Mumbai Cst
+45,1021,Indrayani Exp,Mumbai Cst,Pune Jn
+46,1022,Indrayani Exp,Pune Jn,Mumbai Cst
+47,1023,Sahyadri Expres,Mumbai Cst,C Shahumharaj T
+48,1024,Sahyadri Exp,C Shahumharaj T,Mumbai Cst
+49,1029,Koyna Express,Mumbai Cst,C Shahumharaj T
+50,1030,Koyna Express,C Shahumharaj T,Mumbai Cst
+51,1031,Gyan Ganga Exp,Pune Jn,Manduadih
+52,1032,Gyan Ganga Exp,Manduadih,Pune Jn
+53,1035,Sharavathi Exp,Dadar,Mysore Jn
+54,1036,Sharavati Exp,Mysore Jn,Dadar
+55,1039,Maharashtra Exp,C Shahumharaj T,Gondia Jn
+56,1039F,Maharashtra Exp,Pune Jn,Faizabad Jn
+57,1040,Maharashtra Exp,Gondia Jn,C Shahumharaj T
+58,1043,Madurai Express,Lokmanyatilak T,Madurai Jn
+59,1044,Lokamanya Tt Exp,Madurai Jn,Lokmanyatilak T
+60,1047,Mrj Ubl Exp,Miraj Jn,Hubli Jn
+61,1048,Ubl Mrj Express,Hubli Jn,Miraj Jn
+62,1055,Godan Express,Lokmanyatilak T,Gorakhpur Jn
+63,1056,Godan Express,Gorakhpur Jn,Lokmanyatilak T
+64,1057,Amritsar Express,Dadar,Amritsar Jn
+65,1058,Asr Dr Express,Amritsar Jn,Dadar
+66,1059,Chhapra Express,Lokmanyatilak T,Chhapra
+67,1060,Cpr Ltt Express,Chhapra,Lokmanyatilak T
+68,1061,Muzaffarpur Exp,Lokmanyatilak T,Muzaffarpur Jn
+69,1062,Mfp Ltt Express,Muzaffarpur Jn,Lokmanyatilak T
+70,1065,Darbhanga Exp,Lokmanyatilak T,Darbhanga Jn
+71,1066,Dikshabhumi Exp,Gaya Jn,Nagpur
+72,1067,Saket Express,Lokmanyatilak T,Faizabad Jn
+73,1068,Saket Express,Faizabad Jn,Lokmanyatilak T
+74,1068A,Saket Link Exp,Rae Bareli Jn,Lokmanyatilak T
+75,1069,Tulsi Express,Lokmanyatilak T,Allahabad Jn
+76,1070,Tulsi Express,Allahabad Jn,Lokmanyatilak T
+77,1071,Kamayani Express,Lokmanyatilak T,Varanasi Jn
+78,1072,Kamayani Expres,Varanasi Jn,Lokmanyatilak T
+79,1077,Jhelum Express,Pune Jn,Jammu Tawi
+80,1078,Jhelum Express,Jammu Tawi,Pune Jn
+81,1081,Kanyakumari Exp,Mumbai Cst,Kanyakumari
+82,1082,Cape Mumbai Exp,Kanyakumari,Mumbai Cst
+83,1089,Ju Pune Express,Jodhpur Jn,Pune Jn
+84,1090,Pune Jodhpur Exp,Pune Jn,Jodhpur Jn
+85,1091,Ahimsa Express,Bhuj,Pune Jn
+86,1092,Pune Bhuj Exp,Pune Jn,Bhuj
+87,1093,Mahanagari Exp,Mumbai Cst,Varanasi Jn
+88,1094,Mahanagari Exp,Varanasi Jn,Mumbai Cst
+89,1095,Ahimsa Express,Ahmedabad Jn,Pune Jn
+90,1096,Ahimsa Express,Pune Jn,Ahmedabad Jn
+91,1097,Eranakulam Exp,Pune Jn,Eranakulam Jn
+92,1098,Poorna Express,Eranakulam Jn,Pune Jn
+93,1103,Intercity Exp,Agra Cantt,H Nizamuddin
+94,1104,Intercity Exp,H Nizamuddin,Agra Cantt
+95,1107,Bundelkhand Exp,Gwalior,Varanasi Jn
+96,1108,Bundelkhand Exp,Varanasi Jn,Gwalior
+97,1123,Bju Gwl Mail,Barauni Jn,Gwalior
+98,1124,Gwl Bju Mail,Gwalior,Barauni Jn
+99,1271,Vindhyachal Exp,Itarsi Jn,Bhopal Jn
+100,1272,Vindhyachal Exp,Bhopal Jn,Itarsi Jn
+101,12G11,Dnr Grd Express,Danapur,Giridih
+102,1396,Bpq Dr Pas Exp,Balharshah,Dadar
+103,1405,Kakinada Express,Manmad Jn,Kakinada Town
+104,1406,Cct Manmad Exp,Kakinada Town,Manmad Jn
+105,1447,Shaktipunj Exp,Jabalpur,Howrah Jn
+106,1448,Shaktipunj Exp,Howrah Jn,Jabalpur
+107,1449,Jammutawi Exp,Jabalpur,Jammu Tawi
+108,1450,Jat Jbp Express,Jammu Tawi,Jabalpur
+109,1453,Prerana Express,Ahmedabad Jn,Nagpur
+110,1454,Prerana Express,Nagpur,Ahmedabad Jn
+111,1463,Vrl Jbp Express,Veraval,Jabalpur
+112,1464,Veraval Express,Jabalpur,Veraval
+113,1465,Vrl Jabalpur Exp,Veraval,Jabalpur
+114,1466,Veraval Express,Jabalpur,Veraval
+115,1471,Bpl Jabalpur Exp,Bhopal Jn,Jabalpur
+116,1472,Jbp Bhopal Exp,Jabalpur,Bhopal Jn
+117,1473,Bpl Jabalpur Exp,Bhopal Jn,Jabalpur
+118,1474,Jbp Bhopal Exp,Jabalpur,Bhopal Jn
+119,1616,Dhi Dr Pas Exp,Dhule,Dadar
+120,163,Re Md Express,Rewari,Madar
+121,2103,Pa Lucknow Exp,Pune Jn,Lucknow
+122,2104,Ljn Pune Exp,Lucknow,Pune Jn
+123,2105,Vidarbha Express,Mumbai Cst,Nagpur
+124,2106,Vidarbha Express,Nagpur,Mumbai Cst
+125,2107,Lucknow Sup Exp,Lokmanyatilak T,Lucknow
+126,2108,Ljn Ltt Expresss,Lucknow,Lokmanyatilak T
+127,2109,Panchavati Exp.,Mumbai Cst,Manmad Jn
+128,2110,Panchavti Exp,Manmad Jn,Mumbai Cst
+129,2115,Siddheshwar Exp,Mumbai Cst,Solapur Jn
+130,2116,Siddheswar Exp,Solapur Jn,Mumbai Cst
+131,2117,Ltt Mmr Exp,Lokmanyatilak T,Manmad Jn
+132,2118,Mmr Ltt Exp,Manmad Jn,Lokmanyatilak T
+133,2125,Pragati Express,Mumbai Cst,Pune Jn
+134,2126,Pragati Express,Pune Jn,Mumbai Cst
+135,2127,Intercity Exp,Mumbai Cst,Pune Jn
+136,2128,Intercity Exp,Pune Jn,Mumbai Cst
+137,2129,Azad Hind Exp,Pune Jn,Howrah Jn
+138,2130,Azad Hind Exp,Howrah Jn,Pune Jn
+139,2133,Darbhanga Exp,Pune Jn,Darbhanga Jn
+140,2134,Dbg Pune Exp,Darbhanga Jn,Pune Jn
+141,2135,Pune Nagpur Exp,Pune Jn,Nagpur
+142,2136,Nagpur Pune Exp,Nagpur,Pune Jn
+143,2137,Punjab Mail,Mumbai Cst,Firozpur Cant
+144,2138,Punjab Mail,Firozpur Cant,Mumbai Cst
+145,2139,Sewagram Exp.,Dadar,Nagpur
+146,2140,Sewagram Exp.,Nagpur,Dadar
+147,2141,Rajendra Ngr Exp,Lokmanyatilak T,Rjndr Ngr Bihar
+148,2142,Rjpb Ltt Sup Exp,Rjndr Ngr Bihar,Lokmanyatilak T
+149,2143,Dikshabhumi Exp,Nagpur,Gaya Jn
+150,2144,Dikshabhumi Exp,Gaya Jn,Nagpur
+151,2145,Bhubaneshwar Exp,Lokmanyatilak T,Bhubaneswar
+152,2146,Bbs Ltt Sup Exp,Bhubaneswar,Lokmanyatilak T
+153,2147,Nizamuddin Exp,C Shahumharaj T,H Nizamuddin
+154,2148,Nzm Kop Exp,H Nizamuddin,C Shahumharaj T
+155,2149,Pa Patna Sup Exp,Pune Jn,Patna Jn
+156,2150,Pnbe Pune Exp,Patna Jn,Pune Jn
+157,2151,Samarsata Exp,Lokmanyatilak T,Howrah Jn
+158,2152,Samarsata Exp,Howrah Jn,Lokmanyatilak T
+159,2153,Habibganj Expres,Lokmanyatilak T,Habibganj
+160,2154,Hbj Ltt Sup Exp,Habibganj,Lokmanyatilak T
+161,2155,Bhopal Express,Habibganj,H Nizamuddin
+162,2156,Bhopal Express,H Nizamuddin,Habibganj
+163,2157,Hutatma Express,Pune Jn,Solapur Jn
+164,2158,Hutatma Express,Solapur Jn,Pune Jn
+165,2159,Ngp Jbp Sup Exp,Nagpur,Jabalpur
+166,2160,Nagpur Sup Exp,Jabalpur,Nagpur
+167,2161,Lashkar Express,Lokmanyatilak T,Agra Cantt
+168,2162,Lashkar Express,Agra Cantt,Lokmanyatilak T
+169,2163,Chennai Express,Dadar,Chennai Central
+170,2164,Chennai Exp,Chennai Central,Dadar
+171,2165,Ltt Bsb Sup Exp,Lokmanyatilak T,Varanasi Jn
+172,2166,Bsb Ltt Sup Exp,Varanasi Jn,Lokmanyatilak T
+173,2173,Udyog Nagri Exp,Lokmanyatilak T,Kanpur Central
+174,2174,Udyog Nagri Exp,Kanpur Central,Lokmanyatilak T
+175,2175,Chambal Exp,Howrah Jn,Gwalior
+176,2176,Chambal Express,Gwalior,Howrah Jn
+177,2177,Chambal Exp,Howrah Jn,Agra Cantt
+178,2178,Chambal Express,Agra Cantt,Howrah Jn
+179,2181,Dayodaya Express,Jabalpur,Jaipur
+180,2182,Dayodaya Exp,Jaipur,Jabalpur
+181,2183,Bpl Lucknow Exp,Bhopal Jn,Lucknow
+182,2184,Ljn Bpl Express,Lucknow,Bhopal Jn
+183,2185,Rewanchal Exp,Bhopal Jn,Rewa
+184,2186,Rewanchal Exp,Rewa,Bhopal Jn
+185,2187,Rewanchal Exp,Bhopal Jn,Rewa
+186,2188,Rewanchal Exp,Rewa,Bhopal Jn
+187,2189,Mahakaushal Exp,Jabalpur,H Nizamuddin
+188,2190,Mahakoshal Exp,H Nizamuddin,Jabalpur
+189,2203A,Garib Rath Exp,Saharsa Jn,Amritsar Jn
+190,2225,Kaifiyat Exp,Azamgarh,Delhi
+191,2226,Kaifiyat Exp,Delhi,Azamgarh
+192,2229,Lucknow Mail,Lucknow,New Delhi
+193,2230,Lucknow Mail,New Delhi,Lucknow
+194,2231,Lko Cdg Express,Lucknow,Chandigarh
+195,2232,Cdg Lko Express,Chandigarh,Lucknow
+196,2279,Taj Express,Jhansi Jn,H Nizamuddin
+197,2280,Taj Express,H Nizamuddin,Jhansi Jn
+198,2303,Poorva Express,Howrah Jn,New Delhi
+199,2304,Poorva Express,New Delhi,Howrah Jn
+200,2307,Hwh==Ju==Exp,Howrah Jn,Jodhpur Jn
+201,2311,Hwh Dli Klk Mail,Howrah Jn,Kalka
+202,2312,Kalka Mail,Kalka,Howrah Jn
+203,2315,Annanya Express,Sealdah,Ajmer Jn
+204,2316,Ananya Express,Ajmer Jn,Sealdah
+205,2317,Akal Takht Exp,Sealdah,Amritsar Jn
+206,2318,Asr Sealdah Exp,Amritsar Jn,Sealdah
+207,2321,Hwh Mumbai Mail,Howrah Jn,Mumbai Cst
+208,2322,Kolkata Mail,Mumbai Cst,Howrah Jn
+209,2323,Hwh Ndls Express,Howrah Jn,New Delhi
+210,2324,Ndls Hwh Express,New Delhi,Howrah Jn
+211,2327,Upasana Express,Howrah Jn,Dehradun
+212,2328,Upasana Express,Dehradun,Howrah Jn
+213,2331,Himgiri Express,Howrah Jn,Jammu Tawi
+214,2332,Himgiri Express,Jammu Tawi,Howrah Jn
+215,2333,Vibhuti Express,Howrah Jn,Varanasi Jn
+216,2334,Vibhuti Express,Varanasi Jn,Howrah Jn
+217,2335,Bgp Ltt Express,Bhagalpur,Lokmanyatilak T
+218,2336,Bhagalpur Exp,Lokmanyatilak T,Bhagalpur
+219,2337,Santinikatanexp,Howrah Jn,Bolpur S Niktn
+220,2338,Santiniketanexp,Bolpur S Niktn,Howrah Jn
+221,2339,Coal Field Exp,Howrah Jn,Dhanbad Jn
+222,2340,Coalfield Exp,Dhanbad Jn,Howrah Jn
+223,2341,Agnibina Express,Howrah Jn,Asansol Jn
+224,2342,Agnibina Express,Asansol Jn,Howrah Jn
+225,2343,Darjeeling Mail,Sealdah,New Jalpaiguri
+226,2344,Darjeeling Mail,Jalpaiguri,Sealdah
+227,2345,Saraighat Exp,Howrah Jn,Guwahati
+228,2346,Saraighatexpres,Guwahati,Howrah Jn
+229,2351,Danapur Express,Howrah Jn,Danapur
+230,2352,Danapur Exp,Danapur,Howrah Jn
+231,2355,Archna Express,Rjndr Ngr Bihar,Jammu Tawi
+232,2356,Archana Express,Jammu Tawi,Rjndr Ngr Bihar
+233,2367,Vikramshila Exp,Bhagalpur,New Delhi
+234,2368,Vikramshila Exp,New Delhi,Bhagalpur
+235,2381,Poorva Express,Howrah Jn,New Delhi
+236,2382,Poorva Express,New Delhi,Howrah Jn
+237,2391,Shramjeevi Exp,Rajgir,New Delhi
+238,2392,Shramjevi N Exp,New Delhi,Rajgir
+239,2393,S Kranti Sup Exp,Rjndr Ngr Bihar,New Delhi
+240,2394,Sampoorn K Exp,New Delhi,Patna Jn
+241,2395,Ibadat Express,Rjndr Ngr Bihar,Ajmer Jn
+242,2396,Ziyarat Express,Ajmer Jn,Rjndr Ngr Bihar
+243,2397,Mahabodhi Exp,Gaya Jn,New Delhi
+244,2398,Mahabodhi Exp,New Delhi,Gaya Jn
+245,2401,Magadh Express,Islampur,New Delhi
+246,2402,Magadh Express,New Delhi,Islampur
+247,2405,Gondwana Express,Bhusaval Jn,H Nizamuddin
+248,2406,Nzm Bsl Express,H Nizamuddin,Bhusaval Jn
+249,2409,Gondwan Express,Bilaspur Jn,H Nizamuddin
+250,2410,Gondwana Expres,H Nizamuddin,Bilaspur Jn
+251,2411,Gondwana Express,Jabalpur,H Nizamuddin
+252,2412,Gondwana Expres,H Nizamuddin,Jabalpur
+253,2413,Jp Jat Exp,Jaipur,Jammu Tawi
+254,2413A,Aii Jp Link Exp,Ajmer Jn,Jaipur
+255,2414,Jammu Jp Exp,Jammu Tawi,Jaipur
+256,2414A,Jp Aii Link Exp,Jaipur,Ajmer Jn
+257,2415,Nizamuddin Exp,Indore Jn Bg,H Nizamuddin
+258,2416,Intercity Exp,H Nizamuddin,Indore Jn Bg
+259,2417,Prayag Raj Exp,Allahabad Jn,New Delhi
+260,2418,Prayag Raj Exp,New Delhi,Allahabad Jn
+261,2419,Gomti Exp,Lucknow,New Delhi
+262,2420,Gomti Express,New Delhi,Lucknow
+263,2428,Ndls Rewa Exp,New Delhi,Rewa
+264,2449,Goa Smprk K Exp,Madgaon,H Nizamuddin
+265,2450,Goa Smprk K Exp,H Nizamuddin,Madgaon
+266,2451,Shram Shkti Exp,Kanpur Central,New Delhi
+267,2452,Shram Shkti Exp,New Delhi,Kanpur Central
+268,2459,Ndlsasr Express,New Delhi,Amritsar Jn
+269,2460,Asr Ndls Exp,Amritsar Jn,New Delhi
+270,2461,Mandor Express,Delhi,Jodhpur Jn
+271,2462,Mandor Express,Jodhpur Jn,Delhi
+272,2465,Intercity Exp,Sawai Madhopur,Jodhpur Jn
+273,2466,Intercity Exp,Jodhpur Jn,Sawai Madhopur
+274,2471,Swaraj Express,Bandra Terminus,Jammu Tawi
+275,2472,Swaraj Express,Jammu Tawi,Bandra Terminus
+276,2473,Sarvodaya Exp,Ahmedabad Jn,Jammu Tawi
+277,2474,Sarvodaya Exp,Jammu Tawi,Ahmedabad Jn
+278,2475,Hapa Jat Express,Hapa,Jammu Tawi
+279,2476,Sarvodaya Exp,Jammu Tawi,Hapa
+280,2477,Jam Jat Express,Jamnagar,Jammu Tawi
+281,2478,Jat Jamnagr Exp,Jammu Tawi,Jamnagar
+282,2479,Surya Nagri Exp,Jodhpur Jn,Bandra Terminus
+283,2480,Suryanagari Exp,Bandra Terminus,Jodhpur Jn
+284,2481,Intercity Exp,New Delhi,Shri Ganganagar
+285,2482,Intercity Exp,Shri Ganganagar,New Delhi
+286,2503,Sdah Njp Express,Sealdah,New Jalpaiguri
+287,2504,Njp Sdah Express,New Jalpaiguri,Sealdah
+288,2505,North East Exp,Guwahati,New Delhi
+289,2506,North East Exp,New Delhi,Guwahati
+290,2507,Guwahati Exp,Eranakulam Jn,Guwahati
+291,2508,Ghy Ers Express,Guwahati,Eranakulam Jn
+292,2509,Guwahati Exp,Bangalore Cy Jn,Guwahati
+293,251,Kalka Simla Exp,Kalka,Simla
+294,2510,Ghy-Sbc-Express,Guwahati,Bangalore Cy Jn
+295,2511,Rapti Sagar Exp,Gorakhpur Jn,Trivandrum Cntl
+296,2512,Raptisagar Exp,Trivandrum Cntl,Gorakhpur Jn
+297,2513,Sc Ghy Exp,Secunderabad Jn,Guwahati
+298,2514,Ghy Sc Express,Guwahati,Secunderabad Jn
+299,2515,Guwahati Exp,Trivandrum Cntl,Guwahati
+300,2516,Ghy-Tvc-Express,Guwahati,Trivandrum Cntl
+301,252,Sml Klk Express,Simla,Kalka
+302,2521,Rapti Sagar Exp,Barauni Jn,Eranakulam Jn
+303,2522,Raptisagar Exp,Eranakulam Jn,Barauni Jn
+304,2533,Pushpak Express,Mumbai Cst,Lucknow
+305,2534,Pushpak Exp,Lucknow,Mumbai Cst
+306,2553,Vaishali Exp,Barauni Jn,New Delhi
+307,2554,Vaishali Exp,New Delhi,Barauni Jn
+308,2555,Gorakdam Express,Gorakhpur Jn,Bhiwani
+309,2556,Gorakdam Express,Bhiwani,Gorakhpur Jn
+310,2557,Sapt Kranti Exp,Muzaffarpur Jn,Delhi
+311,2558,Sapt Kranti Exp,Delhi,Muzaffarpur Jn
+312,2559,Shiv Ganga Exp,Varanasi Jn,New Delhi
+313,2560,Shiv Ganga Exp,New Delhi,Varanasi Jn
+314,2561,Swatantrta S Exp,Darbhanga Jn,New Delhi
+315,2562,Swatantrta S Exp,New Delhi,Darbhanga Jn
+316,2587,Amar Nath Exp,Gorakhpur Jn,Jammu Tawi
+317,2588,Jammu Gkp Exp,Jammu Tawi,Gorakhpur Jn
+318,2589,Gkp Sc Express,Gorakhpur Jn,Secunderabad Jn
+319,2590,Gorakhpur Exp,Secunderabad Jn,Gorakhpur Jn
+320,2591,Gkp Sbc Express,Gorakhpur Jn,Bangalore Cy Jn
+321,2592,Gorakhpur Exp,Bangalore Cy Jn,Gorakhpur Jn
+322,2601,Mangalore Mail,Chennai Central,Mangalore
+323,2602,Chennai Mail,Mangalore,Chennai Central
+324,2603,Hwh Mas Mail,Howrah Jn,Chennai Central
+325,2604,Howrah Mail,Chennai Central,Howrah Jn
+326,2605,Pallavan Exp,Chennai Egmore,Tiruchchirapali
+327,2606,Pallavan Exp,Tiruchchirapali,Chennai Egmore
+328,2607,Lalbagh Express,Chennai Central,Bangalore Cy Jn
+329,2608,Lalbagh Exp,Bangalore Cy Jn,Chennai Central
+330,2609,Bangalore Exp,Chennai Central,Bangalore Cy Jn
+331,2610,Chennai Express,Bangalore Cy Jn,Chennai Central
+332,2613,Tippu Express,Mysore Jn,Bangalore Cy Jn
+333,2614,Tippu Express,Bangalore Cy Jn,Mysore Jn
+334,2615,Grand Trunk Exp,Chennai Central,New Delhi
+335,2616,G T Express,New Delhi,Chennai Central
+336,2618,Mngla Lksdp Exp,H Nizamuddin,Eranakulam Jn
+337,2619,Matsyagandha Exp,Lokmanyatilak T,Mangalore
+338,2620,Matsyaganda Exp,Mangalore,Lokmanyatilak T
+339,2621,Tamil Nadu Exp,Chennai Central,New Delhi
+340,2622,Tamil Nadu Exp,New Delhi,Chennai Central
+341,2623,Trivandrum Mail,Chennai Central,Trivandrum Cntl
+342,2624,Chennai Mail,Trivandrum Cntl,Chennai Central
+343,2625,Kerala Express,Trivandrum Cntl,New Delhi
+344,2626,Kerala Express,New Delhi,Trivandrum Cntl
+345,2627,Karnataka Exp,Bangalore Cy Jn,New Delhi
+346,2628,Karnataka Exp,New Delhi,Bangalore Cy Jn
+347,2630,Ypr S Krnti Exp,H Nizamuddin,Yesvantpur Jn
+348,2631,Nellai Express,Chennai Egmore,Tirunelveli
+349,2632,Nellai Express,Tirunelveli,Chennai Egmore
+350,2633,Kanyakumari Exp,Chennai Egmore,Kanyakumari
+351,2634,Kanyakumari Exp,Kanyakumari,Chennai Egmore
+352,2635,Vaigai Exp,Chennai Egmore,Madurai Jn
+353,2636,Vaigai Exp,Madurai Jn,Chennai Egmore
+354,2637,Pandian Exp,Chennai Egmore,Madurai Jn
+355,2638,Pandian Exp,Madurai Jn,Chennai Egmore
+356,2639,Brindavan Exp,Chennai Central,Bangalore Cy Jn
+357,2640,Brindavan Exp,Bangalore Cy Jn,Chennai Central
+358,2641,Tirukkural Exp,Kanyakumari,H Nizamuddin
+359,2642,Thirukkural Exp,H Nizamuddin,Kanyakumari
+360,2643,Nizamuddin Exp,Trivandrum Cntl,H Nizamuddin
+361,2645,Nizamuddin Exp,Eranakulam Jn,H Nizamuddin
+362,2646,Ers Millenum Exp,H Nizamuddin,Eranakulam Jn
+363,2647,Kongu Express,Coimbatore Jn,H Nizamuddin
+364,2648,Kongu Express,H Nizamuddin,Coimbatore Jn
+365,2650,Ktk Smprk K Exp,H Nizamuddin,Yesvantpur Jn
+366,2655,Navjeevan Exp,Ahmedabad Jn,Chennai Central
+367,2656,Navajivan Exp,Chennai Central,Ahmedabad Jn
+368,2657,Bangalore Mail,Chennai Central,Bangalore Cy Jn
+369,2658,Chennai Mail,Bangalore Cy Jn,Chennai Central
+370,2659,Gurudev Express,Nagarcoil Jn,Howrah Jn
+371,2660,Gurudev Express,Howrah Jn,Nagarcoil Jn
+372,2661,Tenkasi Express,Chennai Egmore,Tenkasi Jn
+373,2662,Tsi Chennai Exp,Tenkasi Jn,Chennai Egmore
+374,2663,Hwh Tpj Express,Howrah Jn,Tiruchchirapali
+375,2664,Howrah Express,Tiruchchirapali,Howrah Jn
+376,2665,Kannyakumari Exp,Howrah Jn,Kanyakumari
+377,2666,Cape Howrah Exp,Kanyakumari,Howrah Jn
+378,2667,Nagercoil Exp,Chennai Egmore,Nagarcoil Jn
+379,2668,Chennai Exp,Nagarcoil Jn,Chennai Egmore
+380,2669,Gangakaveri Exp,Chennai Central,Chhapra
+381,2670,Gangakaveri Exp,Varanasi Jn,Chennai Central
+382,2671,Nilagiri Exp,Chennai Central,Metupalaiyam
+383,2672,Nilagiri Exp,Metupalaiyam,Chennai Central
+384,2673,Cheran Express,Chennai Central,Coimbatore Jn
+385,2674,Cheran Express,Coimbatore Jn,Chennai Central
+386,2675,Kovai Express,Chennai Central,Coimbatore Jn
+387,2676,Kovai Exp,Coimbatore Jn,Chennai Central
+388,2677,Coimbatore Exp,Bangalore Cy Jn,Coimbatore Jn
+389,2678,Bangalore Exp,Coimbatore Jn,Bangalore Cy Jn
+390,2679,Coimbatore Exp,Chennai Central,Coimbatore Jn
+391,2680,Chennai Express,Coimbatore Jn,Chennai Central
+392,2681,Coimbatore Exp,Chennai Central,Coimbatore Jn
+393,2682,Chennai Exp,Coimbatore Jn,Chennai Central
+394,2683,Bangalore Sf Exp,Eranakulam Jn,Bangalore Cy Jn
+395,2684,Ernakulam Sf Exp,Bangalore Cy Jn,Eranakulam Jn
+396,2685,Mangalore Exp,Chennai Central,Mangalore
+397,2686,Chennai Exp,Mangalore,Chennai Central
+398,2687,Dehradun Exp,Chennai Central,Dehradun
+399,2688,Ddn Mas Exp,Dehradun,Chennai Central
+400,2688A,Ddn Cdg Mas Exp,Chandigarh,Chennai Central
+401,2689,Nagercoil Exp,Chennai Central,Nagarcoil Jn
+402,2690,Ncj Chennai Exp,Nagarcoil Jn,Chennai Central
+403,2691,Bangalore Exp,Chennai Central,Bangalore Cy Jn
+404,2692,Chennai Express,Bangalore Cy Jn,Chennai Central
+405,2693,Pearl City Exp,Chennai Egmore,Tuticorin
+406,2694,Pearl City Exp,Tuticorin,Chennai Egmore
+407,2695,Trivandrum Exp,Chennai Central,Trivandrum Cntl
+408,2696,Tvc Chennai Exp,Trivandrum Cntl,Chennai Central
+409,2697,Trivandrum Exp,Chennai Central,Trivandrum Cntl
+410,2698,Tvc Chennai Exp,Trivandrum Cntl,Chennai Central
+411,2701,Husainsagar Exp,Mumbai Cst,Hyderabad Decan
+412,2702,Hussainsagar Exp,Hyderabad Decan,Mumbai Cst
+413,2703,Falaknuma Exp,Howrah Jn,Secunderabad Jn
+414,2704,Falaknuma Exp,Secunderabad Jn,Howrah Jn
+415,2705,Bza Sc Exp,Vijayawada Jn,Secunderabad Jn
+416,2706,Sc Bza Exp,Secunderabad Jn,Vijayawada Jn
+417,2709,Simhapuri Exp,Gudur Jn,Secunderabad Jn
+418,2710,Simhapuri Exp,Secunderabad Jn,Gudur Jn
+419,2711,Pinakini Exp,Vijayawada Jn,Chennai Central
+420,2712,Pinakini Exp,Chennai Central,Vijayawada Jn
+421,2713,Satavahana Exp,Vijayawada Jn,Secunderabad Jn
+422,2714,Satavahana Exp,Secunderabad Jn,Vijayawada Jn
+423,2715,Sachkhand Exp,Nanded,Amritsar Jn
+424,2716,Asr Ned Express,Amritsar Jn,Nanded
+425,2717,Ratnachalam Exp,Vishakapatnam,Vijayawada Jn
+426,2718,Ratnachal Exp,Vijayawada Jn,Vishakapatnam
+427,2720,Nagarjuna Exp,Secunderabad Jn,Tenali Jn
+428,2721,Nizamuddin Exp,Hyderabad Decan,H Nizamuddin
+429,2722,Dakshin Express,H Nizamuddin,Hyderabad Decan
+430,2723,A P Exp,Hyderabad Decan,New Delhi
+431,2724,A P Express,New Delhi,Hyderabad Decan
+432,2725,Hubli Express,Bangalore Cy Jn,Hubli Jn
+433,2726,Intercity Exp,Hubli Jn,Bangalore Cy Jn
+434,2727,Godavari Exp,Vishakapatnam,Hyderabad Decan
+435,2728,Godavari Exp,Hyderabad Decan,Vishakapatnam
+436,2729,Pune Nanded Exp,Pune Jn,Nanded
+437,2730,Pune Express,Nanded,Pune Jn
+438,2733,Narayanadri Exp,Tirupati,Secunderabad Jn
+439,2734,Narayanadri Exp,Secunderabad Jn,Tirupati
+440,2737,Goutami Exp,Kakinada Port,Secunderabad Jn
+441,2738,Goutami Exp,Secunderabad Jn,Kakinada Port
+442,2747,Palnadu Exp,Guntur Jn,Vikarabad Jn
+443,2748,Palnadu Exp,Vikarabad Jn,Guntur Jn
+444,2753,Hyderabad Exp,Chennai Central,Hyderabad Decan
+445,2754,Chennai Exp,Hyderabad Decan,Chennai Central
+446,2759,Charminar Exp,Chennai Central,Hyderabad Decan
+447,2760,Charminar Exp,Hyderabad Decan,Chennai Central
+448,2763,Padmavathi Exp,Tirupati,Secunderabad Jn
+449,2764,Padmavati Exp,Secunderabad Jn,Tirupati
+450,2779,Goa Express,Vasco Da Gama,H Nizamuddin
+451,2780,Goa Express,H Nizamuddin,Vasco Da Gama
+452,2785,Bangalore Exp,Kacheguda,Bangalore Cy Jn
+453,2786,Kacheguda Exp,Bangalore Cy Jn,Kacheguda
+454,2797,Venkatadri Exp,Kacheguda,Chittor
+455,2798,Venkatadri Exp,Chittor,Kacheguda
+456,2801,Purushottam Exp,Puri,New Delhi
+457,2802,Purshottam Exp,New Delhi,Puri
+458,2804,Vskp Swrn J Exp,H Nizamuddin,Vishakapatnam
+459,2805,Janmabhoomi Exp,Vishakapatnam,Tenali Jn
+460,2806,Janmabhoomi Exp,Tenali Jn,Vishakapatnam
+461,2807,Samta-Express,Vishakapatnam,H Nizamuddin
+462,2808,Samta Express,H Nizamuddin,Vishakapatnam
+463,2809,Howrah Mail,Mumbai Cst,Howrah Jn
+464,2810,Hwh Mumbai Mail,Howrah Jn,Mumbai Cst
+465,2811,Hatia Express,Lokmanyatilak T,Hatia
+466,2813,Steel Express,Howrah Jn,Tatanagar Jn
+467,2814,Steel Exp,Tatanagar Jn,Howrah Jn
+468,2815,Puri Ndls Exp,Puri,New Delhi
+469,2816,Puri Express,New Delhi,Puri
+470,2817,Jharkhands/Jexp,Hatia,Delhi
+471,2818,Jharkhand Expres,Delhi,Hatia
+472,2821,Dhauli Exp,Howrah Jn,Bhubaneswar
+473,2822,Dhauli Exp,Bhubaneswar,Howrah Jn
+474,2827,Hwh Prr Exp,Howrah Jn,Purulia Jn
+475,2828,Prr Hwh Exp,Purulia Jn,Howrah Jn
+476,2829,Bhubaneswar Exp,Chennai Central,Bhubaneswar
+477,2830,Bbs Chennai Exp,Bhubaneswar,Chennai Central
+478,2833,Howrah Express,Ahmedabad Jn,Howrah Jn
+479,2834,Hwh Adi Express,Howrah Jn,Ahmedabad Jn
+480,2835,Hte Ypr Express,Hatia,Yesvantpur Jn
+481,2836,Ypr Hatia Exp,Yesvantpur Jn,Hatia
+482,2837,Hwh Puri Exp,Howrah Jn,Puri
+483,2838,Puri Hwh Exp,Puri,Howrah Jn
+484,2841,Coromandal Exp,Howrah Jn,Chennai Central
+485,2842,Coromandel Exp,Chennai Central,Howrah Jn
+486,2843,Puri=Adi Exp,Puri,Ahmedabad Jn
+487,2844,Adi Puri Exp,Ahmedabad Jn,Puri
+488,2845,Bbs Ypr Sup Exp,Bhubaneswar,Yesvantpur Jn
+489,2846,Bhubaneshwar Exp,Yesvantpur Jn,Bhubaneswar
+490,2847,Amaravathi Exp,Howrah Jn,Vasco Da Gama
+491,2848,Vsg Howrah Exp,Vasco Da Gama,Howrah Jn
+492,2851,Bsp Mas Exp,Bilaspur Jn,Chennai Central
+493,2852,Bilaspur Express,Chennai Central,Bilaspur Jn
+494,2853,Amarkantak Exp,Durg,Bhopal Jn
+495,2854,Amarkantak Exp,Bhopal Jn,Durg
+496,2859,Gitanjali Exp.,Mumbai Cst,Howrah Jn
+497,2860,Gitanjali Exp,Howrah Jn,Mumbai Cst
+498,2861,Link-Daksin Exp,Vishakapatnam,H Nizamuddin
+499,2863,Hwh Ypr Express,Howrah Jn,Yesvantpur Jn
+500,2864,Ypr Howrah Exp,Yesvantpur Jn,Howrah Jn
+501,2867,Shm Digha Exp,Shalimar,Digha Flag Stn
+502,2867A,Hwh Dgha Exp,Howrah Jn,Digha Flag Stn
+503,2868,Digha Src Exp,Digha Flag Stn,Santragachi Jn
+504,2868A,Dgha Hwh Exp,Digha Flag Stn,Howrah Jn
+505,2869,Howrah Sup Exp,Mumbai Cst,Howrah Jn
+506,2870,Hwh Cstm Express,Howrah Jn,Mumbai Cst
+507,2871,Ispat Express,Howrah Jn,Sambalpur
+508,2872,Ispat Express,Sambalpur,Howrah Jn
+509,2874,Jharkhand Exp,Delhi,Hatia
+510,2875,Neelachal Exp,Puri,New Delhi
+511,2876,Neelachal Exp,New Delhi,Puri
+512,2883,Rupasibangla Exp,Howrah Jn,Purulia Jn
+513,2884,Rupasibangla Exp,Purulia Jn,Howrah Jn
+514,2887,Hwh Puri Express,Howrah Jn,Puri
+515,2888,Puri Hwh Express,Puri,Howrah Jn
+516,2889,Tata Ypr Exp,Tatanagar Jn,Yesvantpur Jn
+517,2890,Ypr Tata Exp,Yesvantpur Jn,Tatanagar Jn
+518,2895,Hwh Puri Express,Howrah Jn,Puri
+519,2896,Puri Hwh Express,Puri,Howrah Jn
+520,2897,Pdy Bbs Express,Pondicherry,Bhubaneswar
+521,2898,Bbs Pdy Express,Bhubaneswar,Pondicherry
+522,2901,Gujarat Mail,Mumbai Central,Ahmedabad Jn
+523,2902,Gujarat Mail,Ahmedabad Jn,Mumbai Central
+524,2905,Pbr Howrah Exp,Porbandar,Howrah Jn
+525,2906,Hwh Pbr Express,Howrah Jn,Porbandar
+526,2907,Bdts Smprk K Exp,Bandra Terminus,H Nizamuddin
+527,2913,Trishatabdi Exp,Indore Jn Bg,Nagpur
+528,2914,Trishatabdi Exp,Nagpur,Indore Jn Bg
+529,2915,Ashram Express,Ahmedabad Jn,Delhi
+530,2916,Ashram Express,Delhi,Ahmedabad Jn
+531,2919,Malwa Express,Indore Jn Bg,Jammu Tawi
+532,2920,Malwa Express,Jammu Tawi,Indore Jn Bg
+533,2923,Indb Nagpur Exp,Indore Jn Bg,Nagpur
+534,2924,Ngp Indore Exp,Nagpur,Indore Jn Bg
+535,2925,Paschim Express,Bandra Terminus,Amritsar Jn
+536,2926,Paschim Express,Amritsar Jn,Bandra Terminus
+537,2926A,Paschim Express,Kalka,Bandra Terminus
+538,2927,Vadodara Exp,Mumbai Central,Vadodara Jn
+539,2928,Vadodara Exp,Vadodara Jn,Mumbai Central
+540,2933,Karnavati Exp,Mumbai Central,Ahmedabad Jn
+541,2934,Karnavati Exp,Ahmedabad Jn,Mumbai Central
+542,2935,Bdts Surat Exp,Bandra Terminus,Surat
+543,2936,Surat Bdts Exp,Surat,Bandra Terminus
+544,2941,Adi Asansol Exp,Ahmedabad Jn,Asansol Jn
+545,2942,Asn Adi Sup Exp,Asansol Jn,Ahmedabad Jn
+546,2943,Udyogkarmi Exp,Valsad,Kanpur Central
+547,2944,Udhyogkarmi Exp,Kanpur Central,Valsad
+548,2945,Tapti Ganga Exp,Surat,Varanasi Jn
+549,2946,Tapti Ganga Exp,Varanasi Jn,Surat
+550,2947,Azimabad Express,Ahmedabad Jn,Patna Jn
+551,2948,Azimabad Express,Patna Jn,Ahmedabad Jn
+552,2955,Bct Jp Express,Mumbai Central,Jaipur
+553,2961,Avantika Exp,Mumbai Central,Indore Jn Bg
+554,2962,Avantika Exp,Indore Jn Bg,Mumbai Central
+555,2963,Mewar Express,H Nizamuddin,Udaipur City
+556,2964,Mewar Express,Udaipur City,H Nizamuddin
+557,2965,Jp Udz Sup Exp,Jaipur,Udaipur City
+558,2966,Udz Jp Sup Exp,Udaipur City,Jaipur
+559,2967,Jaipur Exp,Chennai Central,Jaipur
+560,2968,Jp Madras Expres,Jaipur,Chennai Central
+561,2969,Cbe Jaipur Exp,Coimbatore Jn,Jaipur
+562,2970,Jp Cbe Sup Exp,Jaipur,Coimbatore Jn
+563,2971,Bhavnagar Exp,Bandra Terminus,Bhavnagar Trmus
+564,2972,Bvc Bdts Express,Bhavnagar Trmus,Bandra Terminus
+565,2973,Jaipur Express,Indore Jn Bg,Jaipur
+566,2974,Jp Indb Express,Jaipur,Indore Jn Bg
+567,2975,Jaipur Express,Mysore Jn,Jaipur
+568,2976,Jp Mysore Exp,Jaipur,Mysore Jn
+569,2977,Maru Sagar Exp,Eranakulam Jn,Jaipur
+570,2978,Maru Sagar Exp,Jaipur,Eranakulam Jn
+571,2980,Jp Bdts Sup Exp,Jaipur,Bandra Terminus
+572,2985,Sdah Jp Express,Sealdah,Jaipur
+573,2986,Jp Sdah Express,Jaipur,Sealdah
+574,2989,Ajmer Express,Mumbai Central,Ajmer Jn
+575,2990,Aii Bct Express,Ajmer Jn,Mumbai Central
+576,3005,Amritsar Mail,Howrah Jn,Amritsar Jn
+577,3006,Asr Hwh Mail,Amritsar Jn,Howrah Jn
+578,3007,U/Abhatoofanexp,Howrah Jn,Shri Ganganagar
+579,3008,U A Toofan Exp,Shri Ganganagar,Howrah Jn
+580,3009,Doon Express,Howrah Jn,Dehradun
+581,3010,Doon Express,Dehradun,Howrah Jn
+582,3011,Hwh Mldt Int Exp,Howrah Jn,Malda Town
+583,3012,Mldt Hwh Int Exp,Malda Town,Howrah Jn
+584,3017,Ganadevta Exp,Howrah Jn,Azimganj Jn
+585,3018,Ganadevta Exp,Rampur Hat,Howrah Jn
+586,3019,Bagh Express,Howrah Jn,Kathgodam
+587,3020,Bagh Express,Kathgodam,Howrah Jn
+588,3021,Mithila Express,Howrah Jn,Raxual Jn
+589,3022,Mithila Express,Raxual Jn,Howrah Jn
+590,3023,Hwh Gaya Express,Howrah Jn,Gaya Jn
+591,3024,Gaya Hwh Express,Gaya Jn,Howrah Jn
+592,3025,Hwh Bpl Express,Howrah Jn,Bhopal Jn
+593,3026,Bpl Howrah Exp,Bhopal Jn,Howrah Jn
+594,3039,Janta Express,Howrah Jn,Rajgir
+595,3049,Amritsar Exp,Howrah Jn,Amritsar Jn
+596,3050,Asr Hwh Express,Amritsar Jn,Howrah Jn
+597,3071,Hwh Jmp Express,Howrah Jn,Jamalpur Jn
+598,3072,Jmp Hwh Exp,Jamalpur Jn,Howrah Jn
+599,3103,Bhagirathi Exp,Sealdah,Lalgola
+600,3104,Bhagirathi Exp,Lalgola,Sealdah
+601,3105,Sdah Bui Express,Sealdah,Ballia
+602,3106,Bui Sdah Exp,Ballia,Sealdah
+603,3111,Lal Quila Exp,Kolkata,Delhi
+604,3112,Lal Quila Exp,Delhi,Kolkata
+605,3133,Sdah Bsb Exp,Sealdah,Varanasi Jn
+606,3134,Bsb Sdah Express,Varanasi Jn,Sealdah
+607,3141,Testa Torsa Exp,Sealdah,New Alipurdaur
+608,3142,Testa Torsa Exp,New Alipurdaur,Sealdah
+609,3142A,Teesta Torsa Exp,Jalpaiguri,Sealdah
+610,3145,Radhikapur Exp,Kolkata,Radhikapur
+611,3146,Rdp Kokata Exp,Kaliyanganj,Kolkata
+612,3147,Uttar Banga Exp,Sealdah,New Cooch Behar
+613,3148,Uttar Banga Exp,New Cooch Behar,Sealdah
+614,3149,Kanchankanya Exp,Sealdah,Alipur Duar Jn
+615,3150,Kanchankanya Exp,Alipur Duar Jn,Sealdah
+616,3151,Jammu Tawi Exp,Kolkata,Jammu Tawi
+617,3152,Sealdah Express,Jammu Tawi,Kolkata
+618,3153,Gour Express,Sealdah,Malda Town
+619,3154,Gour Exp,Malda Town,Sealdah
+620,3155,Mithilanchal Exp,Kolkata,Darbhanga Jn
+621,3156,Mithilanchal Exp,Darbhanga Jn,Kolkata
+622,3157,Tirhut Express,Kolkata,Muzaffarpur Jn
+623,3158,Tirhut Express,Muzaffarpur Jn,Kolkata
+624,3163,Hate Bazare Exp,Sealdah,Saharsa Jn
+625,3164,Hate Bazare Exp,Saharsa Jn,Sealdah
+626,3185,Gangasagar Exp,Sealdah,Darbhanga Jn
+627,3186,Dbg Sdah Exp,Darbhanga Jn,Sealdah
+628,3201,Rjpb(T)-Ltt Exp,Rjndr Ngr Bihar,Lokmanyatilak T
+629,3202,Ltt Rjpb Exp,Lokmanyatilak T,Rjndr Ngr Bihar
+630,3225,Intercity Expres,Darbhanga Jn,Danapur
+631,3225A,Shc Dnr Link Exp,Saharsa Jn,Danapur
+632,3226,Intercity Expres,Danapur,Darbhanga Jn
+633,3226A,Dnr Shc Link Exp,Danapur,Saharsa Jn
+634,3233,Rajgriha Express,Rajgir,Danapur
+635,3234,Rajgriha Express,Danapur,Rajgir
+636,3235,Intercity Exp,Sahibganj Jn,Danapur
+637,3236,Intercity Exp,Danapur,Sahibganj Jn
+638,3241,Banka Dnr Exp,Banka Road Oa,Danapur
+639,3242,Dnr Banka Exp,Danapur,Banka Road Oa
+640,3245,Capital Express,New Jalpaiguri,Danapur
+641,3246,Capital Exp,Danapur,New Jalpaiguri
+642,3287,South Bihar Exp,Durg,Danapur
+643,3288,South Bihar Exp,Danapur,Durg
+644,3301,Subarnarekha Exp,Dhanbad Jn,Tatanagar Jn
+645,3302,Subarnarekha Exp,Tatanagar Jn,Dhanbad Jn
+646,3303,Dhn Hte Int Exp,Dhanbad Jn,Hatia
+647,3304,Hte Dhn Int Exp,Hatia,Dhanbad Jn
+648,3307,Gangasutlej Exp,Dhanbad Jn,Firozpur Cant
+649,3308,Gangasatluj Exp,Firozpur Cant,Dhanbad Jn
+650,3317,Blackdiamond Exp,Howrah Jn,Dhanbad Jn
+651,3318,Blackdiamond Exp,Dhanbad Jn,Howrah Jn
+652,3329,Gangadamodarexp,Dhanbad Jn,Rjndr Ngr Bihar
+653,3330,Gangadamodarexp,Rjndr Ngr Bihar,Dhanbad Jn
+654,3347,Palamou Express,Barka Kana,Rjndr Ngr Bihar
+655,3347A,Sgrl Ghdlink Exp,Singrauli,Rjndr Ngr Bihar
+656,3348,Palamau Exp,Rjndr Ngr Bihar,Barka Kana
+657,3351,Dhn Allp Express,Dhanbad Jn,Alleppey
+658,3352,Dhanbad Express,Alleppey,Dhanbad Jn
+659,3401,Intercity Exp,Bhagalpur,Danapur
+660,3402,Intercity Exp,Danapur,Bhagalpur
+661,3403,Vananchal Exp,Ranchi,Bhagalpur
+662,3404,Vananchal Exp,Bhagalpur,Ranchi
+663,3405,Vananchal Exp,Ranchi,Bhagalpur
+664,3406,Vananchal Exp,Bhagalpur,Ranchi
+665,3409,Mldt Bgp Int Exp,Malda Town,Bhagalpur
+666,3410,Bgp Mldt Int Exp,Bhagalpur,Malda Town
+667,3413,Farakka Express,Malda Town,Delhi
+668,3414,Farkka Express,Delhi,Malda Town
+669,3419,Janasewa Express,Bhagalpur,Muzaffarpur Jn
+670,3420,Jansewa Express,Muzaffarpur Jn,Bhagalpur
+671,3483,Farakka Express,Malda Town,Delhi
+672,3484,Farakka Express,Delhi,Malda Town
+673,3503,Intercity Exp,Sealdah,Asansol Jn
+674,3504,Intercity Exp,Asansol Jn,Sealdah
+675,4001,Dli Attari Exp,Delhi,Atari
+676,4002,Attari Dli Exp,Atari,Delhi
+677,4005,Lichchavi Exp,Samastipur Jn,New Delhi
+678,4006,Lichchavi Exp,New Delhi,Samastipur Jn
+679,4007,Sadbhawna Exp,Muzaffarpur Jn,Delhi
+680,4008,Sadhbhawna Exp,Delhi,Muzaffarpur Jn
+681,4013,Sln Dli Exp,Sultanpur,Delhi
+682,4014,Sultanpur Exp,Delhi,Sultanpur
+683,4015,Sadbhawana Exp,Raxual Jn,Delhi
+684,4016,Sadhbhawna Exp,Delhi,Raxual Jn
+685,4018,Sadbhavna Exp,Delhi,Muzaffarpur Jn
+686,4033,Jammu Mail,Delhi,Jammu Tawi
+687,4033A,Jammu Mail,Delhi,Hoshiarpur
+688,4034,Jammu Mail,Jammu Tawi,Delhi
+689,4034A,Jammu Mail,Hoshiarpur,Delhi
+690,4035,Dauladhar Exp,Delhi,Pathankot
+691,4036,Dauladhar Exp,Pathankot,Delhi
+692,4041,Mussoorie Exp,Delhi S Rohilla,Dehradun
+693,4042,Mussoorie Exp,Dehradun,Delhi S Rohilla
+694,4042K,Mussoorie Exp,Kotdwara,Delhi S Rohilla
+695,4043,Garhwal Express,Kotdwara,Delhi
+696,4044,Garhwal Express,Delhi,Kotdwara
+697,4055,Brahmputra Mail,Dibrugarh Town,Delhi
+698,4056,Brahmputra Mail,Delhi,Dibrugarh Town
+699,4059,Dli Jsm Express,Delhi,Jaisalmer
+700,4060,Jsm Dli Express,Jaisalmer,Delhi
+701,4060A,Malani Exp,Barmer,Delhi
+702,4083,Mahananda Exp,Alipur Duar Jn,Delhi
+703,4084,Mahananda Exp,Delhi,Alipur Duar Jn
+704,4114,Link Express,Dehradun,Allahabad Jn
+705,4115,Ald Hw Exp,Allahabad Jn,Haridwar Jn
+706,4116,Hw Ald Exp,Haridwar Jn,Allahabad Jn
+707,4119,Kgm Ddn Express,Kathgodam,Dehradun
+708,4120,Ddn Kgm Express,Dehradun,Kathgodam
+709,4163,Sangam Express,Allahabad Jn,Meerut City
+710,4164,Sangam Exp,Meerut City,Allahabad Jn
+711,4201,Lko Mtj Express,Lucknow,Mathura Jn
+712,4202,Mtj Lko Express,Mathura Jn,Lucknow
+713,4205,Fd Dli Exp,Faizabad Jn,Delhi
+714,4206,Dli Fd Exp,Delhi,Faizabad Jn
+715,4207,Rbl Dli Express,Rae Bareli Jn,Delhi
+716,4208,Dli Rbl Exp,Delhi,Rae Bareli Jn
+717,4215,Ganga Gomti Exp,Allahabad Jn,Lucknow
+718,4216,Ganga Gomti Exp,Lucknow,Allahabad Jn
+719,4227,Varuna Express,Varanasi Jn,Lucknow
+720,4228,Varuna Exp,Lucknow,Varanasi Jn
+721,4231A,Lko Sre Express,Lucknow,Saharanpur
+722,4232A,Sre Lko Express,Saharanpur,Lucknow
+723,4257,K V Exp,Varanasi Jn,New Delhi
+724,4258,Kashi V Express,New Delhi,Varanasi Jn
+725,4265,Bsb Ddn Exp,Varanasi Jn,Dehradun
+726,4266,Ddn Bsb Express,Dehradun,Varanasi Jn
+727,4307,Mgs Be Pass Exp,Mughal Sarai Jn,Bareilly
+728,4309,Ujjaini Express,Ujjain Jn,Dehradun
+729,4310,Ujjaiyani Exp,Dehradun,Ujjain Jn
+730,4311,Ala Hazrat Exp,Bareilly,Bhuj
+731,4312,Ala Hazrat Exp,Bhuj,Bareilly
+732,4313,Bareilly Exp,Lokmanyatilak T,Bareilly
+733,4314,Be Ltt Express,Bareilly,Lokmanyatilak T
+734,4315,Intercity Exp,Bareilly,New Delhi
+735,4316,Intercity Exp,New Delhi,Bareilly
+736,4317,Ind Ddn Express,Indore Jn Bg,Dehradun
+737,4318,Ddn Indb Exp,Dehradun,Indore Jn Bg
+738,4321,Be Bhuj Exp,Bareilly,Bhuj
+739,4322,Bareilly Express,Bhuj,Bareilly
+740,4369,Tribeni Express,Singrauli,Bareilly
+741,4369A,Tribeni Express,Shakti Nagar,Bareilly
+742,4369B,Tribeni Express,Daltonganj,Bareilly
+743,4370,Triveni Exp,Bareilly,Singrauli
+744,4370A,Triveni Exp,Bareilly,Shakti Nagar
+745,4511,Nauchandi Exp,Allahabad Jn,Saharanpur
+746,4512,Nauchandi Exp,Saharanpur,Allahabad Jn
+747,4512A,Krj Ald Link Exp,Bulandshahr,Allahabad Jn
+748,4517,Unchahar Exp,Allahabad Jn,Ambala Cant Jn
+749,4518,Unchahar Exp,Ambala Cant Jn,Allahabad Jn
+750,4519,Kisan Express,Delhi,Bhatinda Jn
+751,4520,Kisan Express,Bhatinda Jn,Delhi
+752,4524,Umb Mfp Express,Ambala Cant Jn,Muzaffarpur Jn
+753,4553,Himachal Exp,Delhi,Una Himachal
+754,4554,Himachal Express,Una Himachal,Delhi
+755,4556,Bareilly Exp,Delhi,Bareilly
+756,4601,Mour Dhwaj Exp,Sonpur Jn,Jammu Tawi
+757,4602,Maur Dhawaj Exp,Jammu Tawi,Sonpur Jn
+758,4609,Hemkunt Exp,Rishikesh,Jammu Tawi
+759,4610,Hemkunt Exp,Jammu Tawi,Rishikesh
+760,462,Rmr Bsb Express,Ramnagar,Varanasi Jn
+761,4629,Satluj Express,Ludhiana Jn,Firozpur Cant
+762,4630,Satluj Express,Firozpur Cant,Ludhiana Jn
+763,4645,Shalimar Exp,New Delhi,Jammu Tawi
+764,4646,Shalimar Exp,Jammu Tawi,New Delhi
+765,4650,Saryuyamuna Exp,Amritsar Jn,Darbhanga Jn
+766,4674,Shaheed Exp,Amritsar Jn,Darbhanga Jn
+767,4681,Ndls Juc Expres,New Delhi,Jalandhar City
+768,4682,Juc Ndls Expres,Jalandhar City,New Delhi
+769,4707,Ranakpur Expres,Bikaner Jn,Bandra Terminus
+770,4708,Ranakpur Expres,Bandra Terminus,Bikaner Jn
+771,4710,Link Express,Bikaner Jn,Rewari
+772,4711,Hw Sgnr Express,Haridwar Jn,Shri Ganganagar
+773,4712,Sgnr Hw Express,Shri Ganganagar,Haridwar Jn
+774,4715,Chetak Express,Rewari,Chittaurgarh
+775,4723,Kalindi Express,Kanpur Central,Bhiwani
+776,4724,Kalindi Express,Bhiwani,Kanpur Central
+777,4731,Ndls Bti Exp,New Delhi,Bhatinda Jn
+778,4732,Bti Ndls Expres,Bhatinda Jn,New Delhi
+779,4737,Jp Bikaner Exp,Jaipur,Bikaner Jn
+780,4738,Bkn Jaipur Exp,Bikaner Jn,Jaipur
+781,4743,Re Md Express,Rewari,Madar
+782,4744A,Aii Re Express,Ajmer Jn,Rewari
+783,4789,Bikaner Express,Rewari,Bikaner Jn
+784,4790,Bikaner Express,Bikaner Jn,Rewari
+785,4791,Bikaner Mail,Rewari,Bikaner Jn
+786,4792,Bikaner Mail,Bikaner Jn,Rewari
+787,4792A,Bikaner Mail,Hanumangarh Jn,Rewari
+788,4809,Jsm Ju Express,Jaisalmer,Jodhpur Jn
+789,4810,Ju Jsm Express,Jodhpur Jn,Jaisalmer
+790,4853,Marudhar Express,Varanasi Jn,Jodhpur Jn
+791,4854,Marudhar Expres,Jodhpur Jn,Varanasi Jn
+792,4863,Marudhar Expres,Varanasi Jn,Jodhpur Jn
+793,4864,Marudhar Expres,Jodhpur Jn,Varanasi Jn
+794,4887,Klk Bme Express,Kalka,Barmer
+795,4887A,Hw Bme Link Exp,Haridwar Jn,Barmer
+796,4888,Barmer Klk Exp,Barmer,Kalka
+797,4888A,Bme Hw Link Exp,Barmer,Haridwar Jn
+798,4889,Ju Mbf Link Exp,Jodhpur Jn,Munabao
+799,5002,Ddn Mfp Exp,Dehradun,Muzaffarpur Jn
+800,5003,Chaurichauraexp,Kanpur Anwrganj,Gorakhpur Jn
+801,5004,Chaurichauraexp,Gorakhpur Jn,Kanpur Anwrganj
+802,5005,Gkp Ddn Express,Gorakhpur Jn,Dehradun
+803,5006,Ddn Gkp Exp,Dehradun,Gorakhpur Jn
+804,5007,Muv Ljn Express,Manduadih,Lucknow
+805,5008,Ljn Muv Exp,Lucknow,Manduadih
+806,5009,Chitrakut Exp,Jabalpur,Lucknow
+807,5010,Chitrakut Exp,Lucknow,Jabalpur
+808,5013,Ranikhet Exp,Delhi S Rohilla,Kathgodam
+809,5014,Ranikhet Exp,Kathgodam,Delhi S Rohilla
+810,5017,Gorakhpur Exp,Lokmanyatilak T,Gorakhpur Jn
+811,5018,Gkp Ltt Exp,Gorakhpur Jn,Lokmanyatilak T
+812,5027,Maurya Exp,Hatia,Gorakhpur Jn
+813,5028,Maurya Express,Gorakhpur Jn,Hatia
+814,5035,Utr Samprk K Exp,Delhi,Kathgodam
+815,5036,Utr Samprk K Exp,Kathgodam,Delhi
+816,5045,Gorakhpur Exp,Okha,Gorakhpur Jn
+817,5046,Gkp Okha Expres,Gorakhpur Jn,Okha
+818,5047,Purbanchal Exp,Kolkata,Gorakhpur Jn
+819,5048,Purvanchal Exp,Gorakhpur Jn,Kolkata
+820,5049,Cp Gkp Exp,Kolkata,Gorakhpur Jn
+821,5050,Gkp Kolkata Exp,Gorakhpur Jn,Kolkata
+822,5051,Cp Gkp Exp,Kolkata,Gorakhpur Jn
+823,5052,Gkp Kolkata Exp,Gorakhpur Jn,Kolkata
+824,5098,Amarnath Exp,Jammu Tawi,Barauni Jn
+825,5107,Chapra Ljn Exp,Chhapra,Lucknow
+826,5108,Ljn Chapra Exp,Lucknow,Chhapra
+827,5109,Budh Purnima Exp,Rajgir,Sarnath
+828,5110,Budhpurnima Exp,Varanasi Jn,Rajgir
+829,5159,Sarnath Express,Durg,Chhapra
+830,5160,Sarnath Express,Chhapra,Durg
+831,5204,Ljn Bju Exp,Lucknow,Barauni Jn
+832,5227,Muzaffarpur Exp,Yesvantpur Jn,Muzaffarpur Jn
+833,5273,Satyagrah Exp,Raxual Jn,Delhi
+834,5274,Satyagrah Exp,Delhi,Raxual Jn
+835,5277,Bagmati Express,Darbhanga Jn,Bangalore Cy Jn
+836,5278,Bagmati Express,Bangalore Cy Jn,Darbhanga Jn
+837,5279,Poorbiya Exp,Saharsa Jn,Adrsh Ngr Delhi
+838,5280,Poorabiya Exp,Adrsh Ngr Delhi,Saharsa Jn
+839,5281,Koshi Exp,Saharsa Jn,Patna Jn
+840,5282,Koshi Exp,Patna Jn,Saharsa Jn
+841,5307,Nainital Exp,Lal Kuan,Aishbagh
+842,5308,Nainital Exp,Aishbagh,Lal Kuan
+843,5311,Kumaon Express,Mathura Jn,Lal Kuan
+844,5312,Kumaun Express,Lal Kuan,Mathura Jn
+845,5313,Ash Mathura Exp,Aishbagh,Mathura Jn
+846,5314,Mathura Ash Exp,Mathura Jn,Aishbagh
+847,5315,Gokul Exp,Gonda Jn,Mathura Jn
+848,5316,Gokul Express,Mathura Jn,Gonda Jn
+849,5603,Inter City Exp,Guwahati,Ledo
+850,5604,Intercity Exp,Tinsukia Jn,Guwahati
+851,5609,Abadh Assam Exp,Guwahati,Bikaner Jn
+852,5610,Avadh Assam Exp,Lalgarh Jn,Guwahati
+853,5629,Guwahati Express,Chennai Egmore,Guwahati
+854,5630,Guwahati Ms Exp,Guwahati,Chennai Egmore
+855,5631,Bme Ghy Express,Barmer,Guwahati
+856,5631A,Bkn Ghy Express,Bikaner Jn,Guwahati
+857,5632,Ghy Bme Bkn Exp,Guwahati,Barmer
+858,5635,Guwahati Express,Okha,Guwahati
+859,5636,Dwarka Express,Guwahati,Okha
+860,5639,Puri Ghy Express,Puri,Guwahati
+861,5640,Ghy Puri Express,Guwahati,Puri
+862,5641,Jhajha Ghy Exp,Jhajha,Guwahati
+863,5642,Ghy Jhajha Exp,Guwahati,Jhajha
+864,5645,Guwahati Express,Lokmanyatilak T,Guwahati
+865,5646,Ghy Ltt Exp,Guwahati,Lokmanyatilak T
+866,5647,Guwahati Express,Lokmanyatilak T,Guwahati
+867,5648,Ghy Ltt Express,Guwahati,Lokmanyatilak T
+868,5651,Kamrup Express,Guwahati,Jammu Tawi
+869,5652,Lohit Express,Jammu Tawi,Guwahati
+870,5653,Amarnath Express,Guwahati,Jammu Tawi
+871,5654,Amarnath Express,Jammu Tawi,Guwahati
+872,5657,Kanchanjanga Exp,Sealdah,Guwahati
+873,5658,Kanchanjungaexp,Guwahati,Sealdah
+874,5665,B G Express,Guwahati,Dimapur
+875,5666,B G Express,Dimapur,Guwahati
+876,5691,Cachar Express,Lumding Jn,Silchar
+877,5692,Cachar Express,Silchar,Lumding Jn
+878,5693,Barak Valley Exp,Lumding Jn,Silchar
+879,5694,Barak Valley Exp,Silchar,Lumding Jn
+880,5707,Kir Asr Express,Katihar Jn,Amritsar Jn
+881,5708,Asr Kir Express,Amritsar Jn,Katihar Jn
+882,5713,Intercity Exp,Katihar Jn,Patna Jn
+883,5714,Intercity Exp,Patna Jn,Katihar Jn
+884,5715,Garib Nawaj Exp,Kishanganj,Ajmer Jn
+885,5716,Garib Nawaj Exp,Ajmer Jn,Kishanganj
+886,5761,Rnc Apdj Express,Ranchi,Alipur Duar Jn
+887,5762,Apdj Rnc Express,Alipur Duar Jn,Ranchi
+888,5813,Arunachal Exp,Rangiya Jn,Murkeongselek
+889,5814,Arunachal Exp,North Lakhimpur,Rangiya Jn
+890,5929,Dibrugarh Exp,Chennai Egmore,Dibrugarh Town
+891,5930,Dbrt Ms Express,Dibrugarh Town,Chennai Egmore
+892,5933,Dbrt Asr Express,Dibrugarh Town,Amritsar Jn
+893,5934,Asr Dbrt Express,Amritsar Jn,Dibrugarh Town
+894,5959,Kamrup Express,Howrah Jn,Dibrugarh Town
+895,5960,Kamrup Express,Dibrugarh Town,Howrah Jn
+896,6009,Chennai Mail,Mumbai Cst,Chennai Central
+897,6010,Mumbai Mail,Chennai Central,Mumbai Cst
+898,6010A,Mas Mumbai Exp,Solapur Jn,Gondia Jn
+899,6011,Cstm Chennai Exp,Mumbai Cst,Chennai Central
+900,6012,Mumbai Express,Chennai Central,Mumbai Cst
+901,6031,Andaman Express,Chennai Central,Jammu Tawi
+902,6032,Andaman Express,Jammu Tawi,Chennai Central
+903,6041,Alleppey Exp,Chennai Central,Alleppey
+904,6042,Chennai Express,Alleppey,Chennai Central
+905,6043,Circar Exp,Chennai Central,Kakinada Port
+906,6044,Circar Exp,Kakinada Port,Chennai Central
+907,6053,Tirupathi Exp,Chennai Central,Tirupati
+908,6054,Madras Express,Tirupati,Chennai Central
+909,6057,Sapthagiri Exp,Chennai Central,Tirupati
+910,6058,Saptagiri Exp,Tirupati,Chennai Central
+911,6093,Lucknow Exp,Chennai Central,Lucknow
+912,6094,Ljn Mas Exp,Lucknow,Chennai Central
+913,6123,Anantapuri Exp,Chennai Egmore,Trivandrum Cntl
+914,6124,Anantapuri Exp,Trivandrum Cntl,Chennai Egmore
+915,6125,Ms Jodhpur Exp,Chennai Egmore,Jodhpur Jn
+916,6126,Ju Ms Express,Jodhpur Jn,Chennai Egmore
+917,6127,Ms Guruvayur Exp,Chennai Egmore,Guruvayur
+918,6128,Guv Chennai Exp,Guruvayur,Chennai Egmore
+919,6177,Rock Fort Exp,Chennai Egmore,Kumbakonam
+920,6178,Rockfort Express,Kumbakonam,Chennai Egmore
+921,6201,Mys Dharwad Exp,Mysore Jn,Dharwar
+922,6201A,Mys Shimoga Exp,Mysore Jn,Shimoga Town
+923,6202,Dwr Mysore Exp,Dharwar,Mysore Jn
+924,6203,Tirupathy Exp,Chennai Central,Tirupati
+925,6215,Chamundi Exp,Mysore Jn,Bangalore Cy Jn
+926,6216,Chamundi Expres,Bangalore Cy Jn,Mysore Jn
+927,6221,Chennai Express,Mysore Jn,Chennai Central
+928,6222,Mysore Express,Chennai Central,Mysore Jn
+929,6227,Shimoga Express,Bangalore Cy Jn,Shimoga Town
+930,6228,Bangalore Exp,Shimoga Town,Bangalore Cy Jn
+931,6228A,Smet Mysore Exp,Shimoga Town,Mysore Jn
+932,6231,Mysore Express,Mayiladuturai J,Mysore Jn
+933,6232,Mailaduturai Ex,Mysore Jn,Mayiladuturai J
+934,6301,Venad Express,Shoranur Jn,Trivandrum Cntl
+935,6302,Venad Express,Trivandrum Cntl,Shoranur Jn
+936,6303,Vanchinad Exp,Eranakulam Jn,Trivandrum Cntl
+937,6304,Vanchinad Exp,Trivandrum Cntl,Eranakulam Jn
+938,6305,Cannanore Exp,Eranakulam Jn,Kannur
+939,6306,Ernakulam Exp,Kannur,Eranakulam Jn
+940,6307,Cannanore Exp,Alleppey,Kannur
+941,6307E,Cannanore Exp,Eranakulam Jn,Kannur
+942,6308,Alleppey Exp,Kannur,Alleppey
+943,6308E,Ernakulam Exp,Kannur,Eranakulam Jn
+944,6309,Patna Express,Eranakulam Jn,Patna Jn
+945,6310,Pnbe-Ers Express,Patna Jn,Eranakulam Jn
+946,6311,Bkn Tvc Express,Bikaner Jn,Trivandrum Cntl
+947,6312,Bikaner Express,Trivandrum Cntl,Bikaner Jn
+948,6315,Kochuveli Exp,Bangalore Cy Jn,Kochuveli
+949,6316,Bangalore Exp,Kochuveli,Bangalore Cy Jn
+950,6317,Himsagar Exp,Kanyakumari,Jammu Tawi
+951,6318,Himsagar Exp,Jammu Tawi,Kanyakumari
+952,6321,Trivandrum Exp,Bangalore Cy Jn,Trivandrum Cntl
+953,6322,Bangalore Exp,Trivandrum Cntl,Bangalore Cy Jn
+954,6323,Howrah Exp,Trivandrum Cntl,Howrah Jn
+955,6324,Hwh=Tvc Express,Howrah Jn,Trivandrum Cntl
+956,6327,Krba Tvc Express,Korba,Trivandrum Cntl
+957,6328,Korba Express,Trivandrum Cntl,Korba
+958,6329,Malabar Exp,Trivandrum Cntl,Mangalore
+959,6329A,Malabar Exp,Kottayam,Mangalore
+960,6330,Malabar Express,Mangalore,Trivandrum Cntl
+961,6331,Trivandram Exp,Mumbai Cst,Trivandrum Cntl
+962,6332,Mumbai Exp,Trivandrum Cntl,Mumbai Cst
+963,6333,Vrl Tvc Express,Veraval,Trivandrum Cntl
+964,6334,Veraval Express,Trivandrum Cntl,Veraval
+965,6335,Nagercoil Exp,Gandhidham Bg,Nagarcoil Jn
+966,6336,Gandhidham Exp,Nagarcoil Jn,Gandhidham Jn.
+967,6337,Okha Ers Express,Okha,Eranakulam Jn
+968,6338,Okha Express,Eranakulam Jn,Okha
+969,6339,Nagarcoil Exp,Mumbai Cst,Nagarcoil Jn
+970,6340,Mumbai Express,Nagarcoil Jn,Mumbai Cst
+971,6341,Trivandrum Exp,Eranakulam Jn,Trivandrum Cntl
+972,6342,Ernakulam Exp,Trivandrum Cntl,Eranakulam Jn
+973,6343,Amritha Express,Trivandrum Cntl,Palghat Town
+974,6344,Amritha Express,Palghat Town,Trivandrum Cntl
+975,6345,Netravati Exp,Lokmanyatilak T,Trivandrum Cntl
+976,6346,Netravathi Exp,Trivandrum Cntl,Lokmanyatilak T
+977,6347,Mangalore Exp,Trivandrum Cntl,Mangalore
+978,6348,Trivandrum Exp,Mangalore,Trivandrum Cntl
+979,6349,Parasuram Exp,Trivandrum Cntl,Mangalore
+980,6350,Parasuram Exp,Mangalore,Trivandrum Cntl
+981,6351,Nagarcoil Exp,Mumbai Cst,Nagarcoil Jn
+982,6352,Ncj Mumbai Exp,Nagarcoil Jn,Mumbai Cst
+983,6359,Ers Patna Exp,Eranakulam Jn,Patna Jn
+984,6360,Rjpb Ers Express,Patna Jn,Eranakulam Jn
+985,6501,Adi Sbc Express,Ahmedabad Jn,Bangalore Cy Jn
+986,6502,Ahmadabad Exp,Bangalore Cy Jn,Ahmedabad Jn
+987,6505,Gimb Sbc Express,Gandhidham Bg,Bangalore Cy Jn
+988,6506,Gandhidham Exp,Bangalore Cy Jn,Gandhidham Jn.
+989,6507,Ju Banglore Exp,Jodhpur Jn,Bangalore Cy Jn
+990,6508,Jodhpur Express,Bangalore Cy Jn,Jodhpur Jn
+991,6509,Aii Sbc Express,Ajmer Jn,Bangalore Cy Jn
+992,6510,Ajmer Express,Bangalore Cy Jn,Ajmer Jn
+993,6511,Ypr Bsp Express,Yesvantpur Jn,Bilaspur Jn
+994,6512,Bsp Ypr Express,Bilaspur Jn,Yesvantpur Jn
+995,6513,Basava Express,Yesvantpur Jn,Bagalkot
+996,6514,Basava Express,Bagalkot,Yesvantpur Jn
+997,6525,Bangalore Exp,Kanyakumari,Bangalore Cy Jn
+998,6526,Kanyakumari Exp,Bangalore Cy Jn,Kanyakumari
+999,6528,Yesvantpur Exp,Kannur,Yesvantpur Jn
+1000,6529,Udyan Express,Mumbai Cst,Bangalore Cy Jn
+1001,6530,Udyan Exp,Bangalore Cy Jn,Mumbai Cst
+1002,6532,Garib Nawaz Exp,Yesvantpur Jn,Ajmer Jn
+1003,6590,Ranichennama Exp,C Shahumharaj T,Bangalore Cy Jn
+1004,6591,Hampi Express,Hubli Jn,Bangalore Cy Jn
+1005,6592,Hampi Exp,Bangalore Cy Jn,Hubli Jn
+1006,6593,Hampi Link Exp,Nanded,Bangalore Cy Jn
+1007,6595,Sanghamitra Exp,Bangalore Cy Jn,Patna Jn
+1008,6596,Sangha Mitra Exp,Patna Jn,Bangalore Cy Jn
+1009,6603,Maveli Express,Mangalore,Trivandrum Cntl
+1010,6604,Maveli Express,Trivandrum Cntl,Mangalore
+1011,6607,Ms Mangalore Exp,Chennai Egmore,Mangalore
+1012,6608,Maq Chennai Exp,Mangalore,Chennai Egmore
+1013,6613,Coimbatore Exp,Rajkot Jn,Coimbatore Jn
+1014,6614,Rajkot Express,Coimbatore Jn,Rajkot Jn
+1015,6627,West Coast Exp,Chennai Central,Mangalore
+1016,6628,West Coast Exp,Mangalore,Chennai Central
+1017,6669,Yercaud Express,Chennai Central,Erode Jn
+1018,6670,Yercaud Exp,Erode Jn,Chennai Central
+1019,6687,Navyug Exp,Mangalore,Jammu Tawi
+1020,6688,Navyug Express,Jammu Tawi,Mangalore
+1021,6713,Sethu Express,Tambaram,Rameswaram
+1022,6714,Sethu Express,Rameswaram,Tambaram
+1023,6715,Madurai Express,Coimbatore Jn,Madurai Jn
+1024,6716,Coimbatore Exp,Madurai Jn,Coimbatore Jn
+1025,6731,Mysore Exp,Tuticorin,Mysore Jn
+1026,6732,Tuticorin Exp,Mysore Jn,Tuticorin
+1027,6733,Mdu Mmr Express,Madurai Jn,Manmad Jn
+1028,6734,Mmr Madurai Exp,Manmad Jn,Madurai Jn
+1029,6865,Ernakulam Exp,Tiruchchirapali,Eranakulam Jn
+1030,6866,Tiruchchi Exp,Eranakulam Jn,Tiruchchirapali
+1031,7015,Visakha Express,Bhubaneswar,Secunderabad Jn
+1032,7016,Visakha Exp,Secunderabad Jn,Bhubaneswar
+1033,7017,Rjt Sc Express,Rajkot Jn,Secunderabad Jn
+1034,7018,Rajkot Express,Secunderabad Jn,Rajkot Jn
+1035,7031,Hyderabad Exp,Mumbai Cst,Hyderabad Decan
+1036,7032,Mumbai Exp,Hyderabad Decan,Mumbai Cst
+1037,7037,Sc Bkn Exp,Secunderabad Jn,Bikaner Jn
+1038,7038,Bkn Sc Exp,Bikaner Jn,Secunderabad Jn
+1039,7039,Sc Ned Express,Secunderabad Jn,Nanded
+1040,7040,Ned Sc Express,Nanded,Secunderabad Jn
+1041,7049,Mtm Sc Exp,Machelipatnam,Secunderabad Jn
+1042,7050,Machiliptnm Exp,Secunderabad Jn,Machelipatnam
+1043,7057,Devagiri Exp,Mumbai Cst,Secunderabad Jn
+1044,7058,Devagiri Exp,Secunderabad Jn,Mumbai Cst
+1045,7063,Ajanta Express,Manmad Jn,Secunderabad Jn
+1046,7064,Ajanta Exp,Secunderabad Jn,Manmad Jn
+1047,7091,Sc Pnbe Express,Secunderabad Jn,Patna Jn
+1048,7092,Rjpb Sc Express,Patna Jn,Secunderabad Jn
+1049,7201,Golconda Exp,Guntur Jn,Secunderabad Jn
+1050,7202,Golconda Exp,Secunderabad Jn,Guntur Jn
+1051,7203,Bvc Kakinada Exp,Bhavnagar Trmus,Kakinada Town
+1052,7204,Cct Bvc Express,Kakinada Town,Bhavnagar Trmus
+1053,7209,Seshadri Express,Bangalore Cy Jn,Kakinada Town
+1054,7210,Sheshadri Exp,Kakinada Town,Bangalore Cy Jn
+1055,7225,Amaravathi Exp,Vijayawada Jn,Hubli Jn
+1056,7226,Amaravati Exp,Hubli Jn,Vijayawada Jn
+1057,7228,Vsg Bza Express,Vasco Da Gama,Vijayawada Jn
+1058,7229,Sabari Express,Trivandrum Cntl,Hyderabad Decan
+1059,7230,Sabari Exp,Hyderabad Decan,Trivandrum Cntl
+1060,7233,Bhagyanagar Exp,Secunderabad Jn,Sirpur Kagazngr
+1061,7234,Bhagyanagar Exp,Sirpur Kagazngr,Secunderabad Jn
+1062,7239,Simhadri Exp,Guntur Jn,Vishakapatnam
+1063,7240,Simhadri Express,Vishakapatnam,Guntur Jn
+1064,7255,Ns Hydrabad Exp,Narasapur,Hyderabad Decan
+1065,7256,Narasapur Exp,Hyderabad Decan,Narasapur
+1066,7305,Nzm Link Exp,Hubli Jn,H Nizamuddin
+1067,7309,Ypr Vasco Exp,Yesvantpur Jn,Vasco Da Gama
+1068,7310,Ypr Biweekly Exp,Vasco Da Gama,Yesvantpur Jn
+1069,7311,Mas Vasco Exp,Chennai Central,Vasco Da Gama
+1070,7312,Vsg Chennai Exp,Vasco Da Gama,Chennai Central
+1071,7313,Mas Hubli Exp,Chennai Central,Hubli Jn
+1072,7314,Ubl Chennai Exp,Hubli Jn,Chennai Central
+1073,7405,Krishna Express,Tirupati,Nizamabad
+1074,7406,Krishna Exp,Nizamabad,Tirupati
+1075,7416,Haripriya Exp,C Shahumharaj T,Tirupati
+1076,7429,Rayalaseema Exp,Hyderabad Decan,Tirupati
+1077,7430,Rayalaseema Exp,Tirupati,Hyderabad Decan
+1078,7479,Puri Tpty Exp,Puri,Tirupati
+1079,7480,Tpty Puri Exp,Tirupati,Puri
+1080,7481,Bsp Tpty Express,Bilaspur Jn,Tirupati
+1081,7482,Tpty Bsp Exp,Tirupati,Bilaspur Jn
+1082,7487,Tirumala Exp,Tirupati,Vishakapatnam
+1083,7488,Tirumala Exp,Vishakapatnam,Tirupati
+1084,7603,Kcg Ypr Exp,Kacheguda,Yesvantpur Jn
+1085,7604,Kacheguda Exp,Yesvantpur Jn,Kacheguda
+1086,7605,Nandigram Exp,Mumbai Cst,Nagpur
+1087,7606,Nandigram Exp,Nanded,Mumbai Cst
+1088,7607,Tungabhadra Exp,Secunderabad Jn,Kurnool Town
+1089,7608,Tungabhadra Exp,Kurnool Town,Secunderabad Jn
+1090,7609,Pnbe Ned Pau Exp,Patna Jn,Purna Jn
+1091,7610,Pau Pnbe Exp,Purna Jn,Patna Jn
+1092,7617,Tapovan Express,Mumbai Cst,Nanded
+1093,7618,Tapovan Exp,Nanded,Mumbai Cst
+1094,7651,Kacheguda Exp,Chennai Egmore,Kacheguda
+1095,7652,Kcg Ms Exp,Kacheguda,Chennai Egmore
+1096,7688,Marathwada Exp,Mudkhed,Manmad Jn
+1097,8005,Hwh Koraput Exp,Howrah Jn,Koraput
+1098,8006,Koraput Hwh Exp,Koraput,Howrah Jn
+1099,8029,Ltt Shalimar Exp,Lokmanyatilak T,Shalimar
+1100,8030,Shm Ltt Express,Shalimar,Lokmanyatilak T
+1101,8101,Tata Jat Exp,Tatanagar Jn,Jammu Tawi
+1102,8102,Muri Express,Jammu Tawi,Hatia
+1103,8103,Jalianwala B Exp,Tatanagar Jn,Amritsar Jn
+1104,8104,Jalianwala B Exp,Amritsar Jn,Tatanagar Jn
+1105,8181,Tata-Cpr Exp,Tatanagar Jn,Chhapra
+1106,8182,Cpr Tata Exp,Chhapra,Tatanagar Jn
+1107,8183,Tata Pnbe Exp,Tatanagar Jn,Danapur
+1108,8184,Dnr-Tata===Exp,Danapur,Tatanagar Jn
+1109,8189,Tata Allp Exp,Tatanagar Jn,Alleppey
+1110,8201,Durg Gkp Express,Durg,Gorakhpur Jn
+1111,8202,Gkp Durg Exp,Gorakhpur Jn,Durg
+1112,8203,Durg Cnb Express,Durg,Kanpur Central
+1113,8204,Betwa Express,Kanpur Central,Durg
+1114,8205,Durg Gkp Exp,Durg,Gorakhpur Jn
+1115,8206,Gkp Durg Exp,Gorakhpur Jn,Durg
+1116,8233,Narmada Express,Indore Jn Bg,Bilaspur Jn
+1117,8234,Narmada Pas/Exp,Bilaspur Jn,Indore Jn Bg
+1118,8237,Chattisgarh Exp,Bilaspur Jn,Amritsar Jn
+1119,8238,Chhatisgarh Exp,Amritsar Jn,Bilaspur Jn
+1120,8239,Gad Ngp Exp,Gevra Road,Nagpur
+1121,8240,Ngp Bilaspur Exp,Nagpur,Bilaspur Jn
+1122,8301,Sbp Rgda Express,Sambalpur,Rayagada
+1123,8302,Rgda Sbp Express,Rayagada,Sambalpur
+1124,8303,Sbp Puri Int Exp,Sambalpur,Puri
+1125,8304,Puri Sbp Int Exp,Puri,Sambalpur
+1126,8401,Puri-Okha-Exp,Puri,Okha
+1127,8402,Okha Puri Exp,Okha,Puri
+1128,8405,Puri Adi Exp,Puri,Ahmedabad Jn
+1129,8406,Adi Puri Exp,Ahmedabad Jn,Puri
+1130,8409,Srijagannathexp,Howrah Jn,Puri
+1131,8410,Srijagannathexp,Puri,Howrah Jn
+1132,8411,Inter City Exp,Bhubaneswar,Vishakapatnam
+1133,8412,Inter City Exp,Vishakapatnam,Bhubaneswar
+1134,8425,Bbs R Express,Bhubaneswar,Raipur Jn
+1135,8426,R Bbs Exp,Raipur Jn,Bhubaneswar
+1136,8447,Hirakhand Exp,Bhubaneswar,Koraput
+1137,8448,Hirakhand Exp,Koraput,Bhubaneswar
+1138,8449,B Nath Dham Exp,Puri,Patna Jn
+1139,8450,B Nath Dham Exp,Patna Jn,Puri
+1140,8451,Tapaswini Expres,Hatia,Puri
+1141,8452,Tapaswini Exp,Puri,Hatia
+1142,8473,Puri Ju Express,Puri,Jodhpur Jn
+1143,8474,Ju Puri Express,Jodhpur Jn,Puri
+1144,8477,Utkal Express,Puri,Haridwar Jn
+1145,8478,Kalingautkalexp,Haridwar Jn,Puri
+1146,8507,Vskp Nzm Hkg Exp,Vishakapatnam,Amritsar Jn
+1147,8508,Hirakund Exp,H Nizamuddin,Vishakapatnam
+1148,8508A,Hirakund Exp,Amritsar Jn,H Nizamuddin
+1149,8509,Vskp Nzb Express,Vishakapatnam,Nizamabad
+1150,8510,Nzb Vskp Express,Nizamabad,Vishakapatnam
+1151,8517,Krba Vskp Exp,Korba,Vishakapatnam
+1152,8518,Vskp Krba Exp,Vishakapatnam,Korba
+1153,8563,Prasanthi Exp,Vishakapatnam,Bangalore Cy Jn
+1154,8563A,Prasanthi Exp,Bhubaneswar,Bangalore Cy Jn
+1155,8564,Prasanthi Exp,Bangalore Cy Jn,Bhubaneswar
+1156,8601,Hte Jat Exp,Hatia,Jammu Tawi
+1157,8609,Rnc Ltt Express,Ranchi,Lokmanyatilak T
+1158,8610,Ranchi Express,Lokmanyatilak T,Ranchi
+1159,8611,Rnc Bsb Express,Ranchi,Varanasi Jn
+1160,8612,Bsb Rnc Express,Varanasi Jn,Ranchi
+1161,8615,Hwh Hatia Exp,Howrah Jn,Hatia
+1162,8616,Hte Rnc Hwh Exp,Hatia,Howrah Jn
+1163,8621,Patliputra Exp,Patna Jn,Hatia
+1164,8622,Patliputra Exp,Hatia,Patna Jn
+1165,8623,Rjpb Hatia Exp,Rjndr Ngr Bihar,Hatia
+1166,8624,Hte Rjpb Exp,Hatia,Rjndr Ngr Bihar
+1167,8624B,Hatia Patna Exp,Barka Kana,Patna Jn
+1168,8625,Rjpb Hte Express,Rjndr Ngr Bihar,Hatia
+1169,8626,Hte-Rjpb-Exp,Hatia,Rjndr Ngr Bihar
+1170,8645,East Coast Exp,Howrah Jn,Hyderabad Decan
+1171,8646,East Coast Exp,Hyderabad Decan,Howrah Jn
+1172,9005,Saurashtra Mail,Mumbai Central,Okha
+1173,9006,Saurashtra Mail,Okha,Mumbai Central
+1174,9011,Gujarat Express,Mumbai Central,Ahmedabad Jn
+1175,9012,Gujarat Express,Ahmedabad Jn,Mumbai Central
+1176,9017,Sau Janata Exp,Bandra Terminus,Jamnagar
+1177,9018,Sau Janata Exp,Jamnagar,Bandra Terminus
+1178,9019,Dehradun Exp,Bandra Terminus,Dehradun
+1179,9019A,Nmh Kota Exp,Nimach,Delhi
+1180,9020,Dehradun Exp,Dehradun,Bandra Terminus
+1181,9020A,Dehradun Express,Delhi,Nimach
+1182,9023,Fzr Janata Exp,Mumbai Central,Firozpur Cant
+1183,9031,Kutch Express,Mumbai Central,Bhuj
+1184,9032,Kutch Express,Bhuj,Mumbai Central
+1185,9037,Avadh Express,Bandra Terminus,Gorakhpur Jn
+1186,9038,Avadh Express,Gorakhpur Jn,Bandra Terminus
+1187,9039,Avadh Express,Bandra Terminus,Muzaffarpur Jn
+1188,9047,St Bhagalpur Exp,Surat,Bhagalpur
+1189,9048,Bgp Surat Exp,Bhagalpur,Surat
+1190,9049,Bdts Patna Exp,Bandra Terminus,Patna Jn
+1191,9050,Pnbe Bdts Exp,Patna Jn,Bandra Terminus
+1192,9051,Shramik Express,Valsad,Sonpur Jn
+1193,9052,Bl Shramik Exp,Sonpur Jn,Valsad
+1194,9105,Haridwar Mail,Ahmedabad Jn,Haridwar Jn
+1195,9106,Hw Adi Mail,Haridwar Jn,Ahmedabad Jn
+1196,9115,Sayajinagari Exp,Bandra Terminus,Bhuj
+1197,9116,Bhuj Bdts Exp,Bhuj,Bandra Terminus
+1198,9143,Lok Shakti Exp,Bandra Terminus,Ahmedabad Jn
+1199,9144,Lok Shakti Exp,Ahmedabad Jn,Bandra Terminus
+1200,9163,Sabarmati Exp,Ahmedabad Jn,Faizabad Jn
+1201,9164,Sabarmati Exp,Faizabad Jn,Ahmedabad Jn
+1202,9165,Sabarmati Exp,Ahmedabad Jn,Darbhanga Jn
+1203,9166,Sabarmati Exp,Darbhanga Jn,Ahmedabad Jn
+1204,9167,Sabarmati Exp,Ahmedabad Jn,Varanasi Jn
+1205,9168,Sabarmati Exp,Varanasi Jn,Ahmedabad Jn
+1206,9215,Saurashtra Exp,Mumbai Central,Porbandar
+1207,9216,Saurashtra Exp,Porbandar,Mumbai Central
+1208,9221,Somnath Express,Ahmedabad Jn,Veraval
+1209,9222,Somnath Express,Veraval,Ahmedabad Jn
+1210,9223,Adi Jat Express,Ahmedabad Jn,Jammu Tawi
+1211,9224,Jat Adi Express,Jammu Tawi,Ahmedabad Jn
+1212,9225,Bti Jat Exp,Bhatinda Jn,Jammu Tawi
+1213,9226,Jat Bti Exp,Jammu Tawi,Bhatinda Jn
+1214,9263,Delhi Sr Express,Porbandar,Delhi S Rohilla
+1215,9264,Dee Porbndr Exp,Delhi S Rohilla,Porbandar
+1216,9265,Uttaranchal Exp,Okha,Dehradun
+1217,9266,Uttaranchal Exp,Dehradun,Okha
+1218,9267,Pbr Okha Express,Porbandar,Okha
+1219,9268,Porbandar Exp,Okha,Porbandar
+1220,9269,Pbr Motihari Exp,Porbandar,Motihari
+1221,9270,Mki Pbr Express,Motihari,Porbandar
+1222,9303,Intercity Exp,Ratlam Jn,Bhopal Jn
+1223,9305,Shipra Express,Indore Jn Bg,Howrah Jn
+1224,9306,Shipra Exp,Howrah Jn,Indore Jn Bg
+1225,9309,Gnc Indore Exp,Gandhinagar Cap,Indore Jn Bg
+1226,9310,Indore Gnc Exp,Indore Jn Bg,Gandhinagar Cap
+1227,9311,Pune Indore Exp,Pune Jn,Indore Jn Bg
+1228,9312,Ind Pune Express,Indore Jn Bg,Pune Jn
+1229,9313,Indb Patna Exp,Indore Jn Bg,Patna Jn
+1230,9314,Rjpb Indb Expres,Rjndr Ngr Bihar,Indore Jn Bg
+1231,9319,Indore Bhind Exp,Indore Jn Bg,Bhind
+1232,9320,Bix Indb Exp,Bhind,Indore Jn Bg
+1233,9321,Indb Rjpb Exp,Indore Jn Bg,Rjndr Ngr Bihar
+1234,9322,Rjpb Indb Expres,Rjndr Ngr Bihar,Indore Jn Bg
+1235,9323,Intercity Exp,Indore Jn Bg,Bhopal Jn
+1236,9569,Okha Bsb Express,Okha,Varanasi Jn
+1237,9570,Bsb Okha Exp,Varanasi Jn,Okha
+1238,9658,Mhow Cor Express,Mhow,Chittaurgarh
+1239,9707,Aravali Express,Bandra Terminus,Jaipur
+1240,9708,Aravali Express,Jaipur,Bandra Terminus
+1241,9711,Jp Sgnr Exp,Jaipur,Shri Ganganagar
+1242,9712,Sgnr Jp Express,Shri Ganganagar,Jaipur
+1243,9733,Shekhawati Exp,Rewari,Jaipur
+1244,9734,Shekhawati Exp,Jaipur,Rewari
+1245,9771,Jaipur Asr Exp,Jaipur,Amritsar Jn
+1246,9772,Asr Jaipur Exp,Amritsar Jn,Jaipur
+1247,9781,Jp Asr Express,Jaipur,Amritsar Jn
+1248,9782,Asr Jp Express,Amritsar Jn,Jaipur
+1249,9943,Udz Adi Express,Udaipur City,Ahmedabad Jn
+1250,9944,Adi Udz Express,Ahmedabad Jn,Udaipur City
+1251,G3111,Grd Dnr Exp,Giridih,Danapur
+1252,G3112,Grd Cp Express,Giridih,Kolkata
