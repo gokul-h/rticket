@@ -117,3 +117,7 @@ dmypy.json
 
 #Static Files
 staticfiles
+
+#Coverage (Testing)
+htmlcov
+.coverage
