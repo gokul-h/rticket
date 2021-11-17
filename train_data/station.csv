@@ -1,0 +1,229 @@
+id,station
+1,Mumbai Cst
+2,Madgaon
+3,Hubli Jn
+4,Darbhanga Jn
+5,Yesvantpur Jn
+6,Vasco Da Gama
+7,Balurghat
+8,Manuguru
+9,Muzaffarpur Jn
+10,Barauni Jn
+11,Chennai Egmore
+12,Nagarcoil Jn
+13,Madurai Jn
+14,Eranakulam Jn
+15,Bangalore Cy Jn
+16,Chennai Central
+17,Secunderabad Jn
+18,Latur
+19,Pune Jn
+20,C Shahumharaj T
+21,Lokmanyatilak T
+22,Coimbatore Jn
+23,Gorakhpur Jn
+24,Dadar
+25,Bhubaneswar
+26,Manduadih
+27,Mysore Jn
+28,Gondia Jn
+29,Miraj Jn
+30,Amritsar Jn
+31,Chhapra
+32,Gaya Jn
+33,Faizabad Jn
+34,Rae Bareli Jn
+35,Allahabad Jn
+36,Varanasi Jn
+37,Jammu Tawi
+38,Kanyakumari
+39,Jodhpur Jn
+40,Bhuj
+41,Ahmedabad Jn
+42,Agra Cantt
+43,H Nizamuddin
+44,Gwalior
+45,Itarsi Jn
+46,Bhopal Jn
+47,Danapur
+48,Balharshah
+49,Manmad Jn
+50,Kakinada Town
+51,Jabalpur
+52,Howrah Jn
+53,Nagpur
+54,Veraval
+55,Dhule
+56,Rewari
+57,Lucknow
+58,Solapur Jn
+59,Firozpur Cant
+60,Rjndr Ngr Bihar
+61,Patna Jn
+62,Habibganj
+63,Kanpur Central
+64,Jaipur
+65,Rewa
+66,Saharsa Jn
+67,Azamgarh
+68,Delhi
+69,New Delhi
+70,Chandigarh
+71,Jhansi Jn
+72,Kalka
+73,Sealdah
+74,Ajmer Jn
+75,Dehradun
+76,Bhagalpur
+77,Bolpur S Niktn
+78,Dhanbad Jn
+79,Asansol Jn
+80,Jalpaiguri
+81,Guwahati
+82,Rajgir
+83,Islampur
+84,Bhusaval Jn
+85,Bilaspur Jn
+86,Indore Jn Bg
+87,Sawai Madhopur
+88,Bandra Terminus
+89,Hapa
+90,Jamnagar
+91,Shri Ganganagar
+92,New Jalpaiguri
+93,Trivandrum Cntl
+94,Simla
+95,Bhiwani
+96,Mangalore
+97,Tiruchchirapali
+98,Tirunelveli
+99,Tenkasi Jn
+100,Metupalaiyam
+101,Tuticorin
+102,Hyderabad Decan
+103,Vijayawada Jn
+104,Gudur Jn
+105,Nanded
+106,Vishakapatnam
+107,Tirupati
+108,Kakinada Port
+109,Guntur Jn
+110,Vikarabad Jn
+111,Kacheguda
+112,Chittor
+113,Puri
+114,Tenali Jn
+115,Tatanagar Jn
+116,Hatia
+117,Purulia Jn
+118,Durg
+119,Shalimar
+120,Digha Flag Stn
+121,Sambalpur
+122,Pondicherry
+123,Mumbai Central
+124,Porbandar
+125,Vadodara Jn
+126,Surat
+127,Valsad
+128,Udaipur City
+129,Bhavnagar Trmus
+130,Malda Town
+131,Rampur Hat
+132,Kathgodam
+133,Raxual Jn
+134,Jamalpur Jn
+135,Lalgola
+136,Ballia
+137,Kolkata
+138,New Alipurdaur
+139,Kaliyanganj
+140,New Cooch Behar
+141,Alipur Duar Jn
+142,Sahibganj Jn
+143,Banka Road Oa
+144,Barka Kana
+145,Singrauli
+146,Alleppey
+147,Ranchi
+148,Atari
+149,Samastipur Jn
+150,Sultanpur
+151,Hoshiarpur
+152,Pathankot
+153,Delhi S Rohilla
+154,Kotdwara
+155,Dibrugarh Town
+156,Jaisalmer
+157,Barmer
+158,Haridwar Jn
+159,Meerut City
+160,Mathura Jn
+161,Saharanpur
+162,Mughal Sarai Jn
+163,Ujjain Jn
+164,Bareilly
+165,Shakti Nagar
+166,Daltonganj
+167,Bulandshahr
+168,Ambala Cant Jn
+169,Bhatinda Jn
+170,Una Himachal
+171,Sonpur Jn
+172,Rishikesh
+173,Ramnagar
+174,Ludhiana Jn
+175,Jalandhar City
+176,Bikaner Jn
+177,Hanumangarh Jn
+178,Kanpur Anwrganj
+179,Okha
+180,Adrsh Ngr Delhi
+181,Lal Kuan
+182,Aishbagh
+183,Gonda Jn
+184,Tinsukia Jn
+185,Lalgarh Jn
+186,Jhajha
+187,Dimapur
+188,Lumding Jn
+189,Silchar
+190,Katihar Jn
+191,Kishanganj
+192,Rangiya Jn
+193,North Lakhimpur
+194,Guruvayur
+195,Kumbakonam
+196,Dharwar
+197,Shimoga Town
+198,Mayiladuturai J
+199,Shoranur Jn
+200,Kannur
+201,Kochuveli
+202,Korba
+203,Kottayam
+204,Gandhidham Bg
+205,Palghat Town
+206,Bagalkot
+207,Rajkot Jn
+208,Erode Jn
+209,Tambaram
+210,Rameswaram
+211,Machelipatnam
+212,Sirpur Kagazngr
+213,Narasapur
+214,Nizamabad
+215,Kurnool Town
+216,Purna Jn
+217,Mudkhed
+218,Koraput
+219,Gevra Road
+220,Rayagada
+221,Raipur Jn
+222,Nimach
+223,Motihari
+224,Ratlam Jn
+225,Gandhinagar Cap
+226,Bhind
+227,Mhow
+228,Giridih
